@@ -1,0 +1,53 @@
+// DM Environment file for SS13Rewrite.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "icons"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "defines.dm"
+#include "world.dm"
+#include "area\area.dm"
+#include "area\frame.dm"
+#include "atoms\atom.dm"
+#include "atoms\datum.dm"
+#include "atoms\effect.dm"
+#include "atoms\helpers.dm"
+#include "atoms\movable.dm"
+#include "client\client.dm"
+#include "controllers\base.dm"
+#include "controllers\game.dm"
+#include "controllers\maps\compiler.dm"
+#include "controllers\maps\load.dm"
+#include "controllers\maps\map_manager.dm"
+#include "controllers\maps\save.dm"
+#include "helper\directions.dm"
+#include "helper\game.dm"
+#include "helper\movement.dm"
+#include "helper\SQL.dm"
+#include "helper\type2type.dm"
+#include "helper\types.dm"
+#include "maps\test.dmm"
+#include "mob\base.dm"
+#include "mob\ghost.dm"
+#include "mob\new_player.dm"
+#include "mob\living\base.dm"
+#include "structure\backbone.dm"
+#include "structure\base.dm"
+#include "structure\floor.dm"
+#include "structure\plating.dm"
+#include "structure\wall.dm"
+#include "testing\test_atom.dm"
+#include "turfs\turf.dm"
+// END_INCLUDE
+

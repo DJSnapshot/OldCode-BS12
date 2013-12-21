@@ -1,0 +1,4160 @@
+Unstandardness Test For DM report for DEFINES
+Generated on 15/09/2013 15:33:28
+Total number of defines 287
+Total number of Files 622
+Total number of references 2716
+Total number of errorous defines 3
+------------------------------------------------
+ACTION_DEBUG
+	Value: "Debug"
+	Comment: 
+	Defined in: code\nlog.dm : 23
+	Number of references: 1
+		code\nlog.dm : 70
+ACTION_MESSAGE
+	Value: "Message"
+	Comment: 
+	Defined in: code\nlog.dm : 25
+	Number of references: 2
+		code\nlog.dm : 51
+		code\nlog.dm : 74
+ACTION_ERROR
+	Value: "Error"
+	Comment: 
+	Defined in: code\nlog.dm : 26
+	Number of references: 0
+ACTION_STARTUP
+	Value: "Startup"
+	Comment: 
+	Defined in: code\nlog.dm : 27
+	Number of references: 0
+ACTION_SHUTDOWN
+	Value: "Shutdown"
+	Comment: 
+	Defined in: code\nlog.dm : 28
+	Number of references: 0
+ACTION_BAN
+	Value: "Ban"
+	Comment: 
+	Defined in: code\nlog.dm : 29
+	Number of references: 0
+ACTION_KICK
+	Value: "Kick"
+	Comment: 
+	Defined in: code\nlog.dm : 30
+	Number of references: 0
+ACTION_MUTE
+	Value: "Mute"
+	Comment: 
+	Defined in: code\nlog.dm : 31
+	Number of references: 0
+ACTION_SAY
+	Value: "Say"
+	Comment: 
+	Defined in: code\nlog.dm : 32
+	Number of references: 0
+ACTION_OOC
+	Value: "OOC"
+	Comment: 
+	Defined in: code\nlog.dm : 33
+	Number of references: 0
+ACTION_ATTACK
+	Value: "Attack"
+	Comment: 
+	Defined in: code\nlog.dm : 34
+	Number of references: 0
+ACTION_ADMIN
+	Value: "Admin"
+	Comment: 
+	Defined in: code\nlog.dm : 35
+	Number of references: 0
+R_IDEAL_GAS_EQUATION
+	Value: 8.31 * 2
+	Comment: 
+	Defined in: code\setup.dm : 0
+	Number of references: 71
+		code\setup.dm : 59
+		code\Aryn\NewPipes.dm : 117
+		code\Aryn\NewPipes.dm : 125
+		code\Aryn\NewPipes.dm : 134
+		code\Aryn\NewPipes.dm : 140
+		code\Aryn\NewPipes.dm : 147
+		code\Aryn\NewPipes.dm : 154
+		code\Aryn\NewPipes.dm : 155
+		code\Aryn\NewPipes.dm : 161
+		code\Aryn\NewPipes.dm : 175
+		code\Aryn\NewPipes.dm : 183
+		code\Aryn\NewPipes.dm : 232
+		code\Aryn\NewPipes.dm : 238
+		code\Aryn\NewPipes.dm : 356
+		code\Aryn\NewPipes.dm : 369
+		code\Aryn\NewPipes.dm : 525
+		code\Aryn\NewPipes.dm : 664
+		code\Aryn\NewPipes.dm : 667
+		code\Aryn\NewPipes.dm : 802
+		code\Aryn\NewPipes.dm : 814
+		code\Aryn\NewPipes.dm : 833
+		code\ATMOSPHERICS\pipes.dm : 414
+		code\ATMOSPHERICS\pipes.dm : 427
+		code\ATMOSPHERICS\pipes.dm : 441
+		code\ATMOSPHERICS\pipes.dm : 457
+		code\ATMOSPHERICS\pipes.dm : 471
+		code\ATMOSPHERICS\pipes.dm : 485
+		code\ATMOSPHERICS\pipes.dm : 486
+		code\ATMOSPHERICS\components\filter.dm : 106
+		code\ATMOSPHERICS\components\mixer.dm : 84
+		code\ATMOSPHERICS\components\mixer.dm : 87
+		code\ATMOSPHERICS\components\binary_devices\circulator.dm : 30
+		code\ATMOSPHERICS\components\binary_devices\dp_vent_pump.dm : 75
+		code\ATMOSPHERICS\components\binary_devices\dp_vent_pump.dm : 94
+		code\ATMOSPHERICS\components\binary_devices\passive_gate.dm : 44
+		code\ATMOSPHERICS\components\binary_devices\pump.dm : 56
+		code\ATMOSPHERICS\components\unary\outlet_injector.dm : 38
+		code\ATMOSPHERICS\components\unary\outlet_injector.dm : 56
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 298
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 322
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 338
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 499
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 507
+		code\FEA\FEA_gas_mixture.dm : 96
+		code\FEA\FEA_gas_mixture.dm : 695
+		code\FEA\FEA_gas_mixture.dm : 895
+		code\game\machinery\atmoalter\canister.dm : 121
+		code\game\machinery\atmoalter\canister.dm : 132
+		code\game\machinery\atmoalter\canister.dm : 240
+		code\game\machinery\atmoalter\canister.dm : 249
+		code\game\machinery\atmoalter\canister.dm : 260
+		code\game\machinery\atmoalter\canister.dm : 269
+		code\game\machinery\atmoalter\canister.dm : 277
+		code\game\machinery\atmoalter\canister.dm : 286
+		code\game\machinery\atmoalter\canister.dm : 287
+		code\game\machinery\atmoalter\pump.dm : 40
+		code\game\machinery\atmoalter\pump.dm : 55
+		code\game\objects\jetpack.dm : 17
+		code\game\objects\tank.dm : 87
+		code\game\objects\tank.dm : 257
+		code\game\objects\tank.dm : 258
+		code\game\objects\tank.dm : 263
+		code\game\objects\tank.dm : 269
+		code\game\objects\tank.dm : 276
+		code\game\objects\tank.dm : 279
+		code\game\objects\tank.dm : 287
+		code\modules\mob\living\carbon\life.dm : 503
+		code\modules\mob\living\carbon\alien\life.dm : 76
+		code\modules\mob\living\silicon\robot\life.dm : 82
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 706
+		code\WorkInProgress\recycling\disposal.dm : 327
+ONE_ATMOSPHERE
+	Value: 101.325
+	Comment: 
+	Defined in: code\setup.dm : 1
+	Number of references: 118
+		code\setup.dm : 59
+		code\setup.dm : 63
+		code\setup.dm : 64
+		code\setup.dm : 66
+		code\setup.dm : 67
+		code\Aryn\Airflow.dm : 31
+		code\Aryn\Airflow.dm : 34
+		code\Aryn\Airflow.dm : 48
+		code\Aryn\NewPipes.dm : 134
+		code\Aryn\NewPipes.dm : 140
+		code\Aryn\NewPipes.dm : 147
+		code\Aryn\NewPipes.dm : 154
+		code\Aryn\NewPipes.dm : 155
+		code\Aryn\NewPipes.dm : 161
+		code\Aryn\NewPipes.dm : 199
+		code\Aryn\NewPipes.dm : 236
+		code\Aryn\NewPipes.dm : 237
+		code\Aryn\NewPipes.dm : 239
+		code\Aryn\NewPipes.dm : 328
+		code\Aryn\NewPipes.dm : 452
+		code\Aryn\NewPipes.dm : 458
+		code\Aryn\NewPipes.dm : 1061
+		code\Aryn\NewPipes.dm : 1063
+		code\Aryn\NewPipes.dm : 1064
+		code\Aryn\NewPipes.dm : 1066
+		code\Aryn\NewPipes.dm : 1067
+		code\Aryn\NewPipes.dm : 1069
+		code\Aryn\NewPipes.dm : 1070
+		code\ATMOSPHERICS\pipes.dm : 11
+		code\ATMOSPHERICS\pipes.dm : 79
+		code\ATMOSPHERICS\pipes.dm : 80
+		code\ATMOSPHERICS\pipes.dm : 81
+		code\ATMOSPHERICS\pipes.dm : 327
+		code\ATMOSPHERICS\pipes.dm : 328
+		code\ATMOSPHERICS\pipes.dm : 329
+		code\ATMOSPHERICS\pipes.dm : 361
+		code\ATMOSPHERICS\pipes.dm : 362
+		code\ATMOSPHERICS\pipes.dm : 414
+		code\ATMOSPHERICS\pipes.dm : 427
+		code\ATMOSPHERICS\pipes.dm : 441
+		code\ATMOSPHERICS\pipes.dm : 457
+		code\ATMOSPHERICS\pipes.dm : 471
+		code\ATMOSPHERICS\pipes.dm : 485
+		code\ATMOSPHERICS\pipes.dm : 486
+		code\ATMOSPHERICS\pipes.dm : 583
+		code\ATMOSPHERICS\pipes.dm : 586
+		code\ATMOSPHERICS\components\filter.dm : 24
+		code\ATMOSPHERICS\components\mixer.dm : 25
+		code\ATMOSPHERICS\components\binary_devices\circulator.dm : 56
+		code\ATMOSPHERICS\components\binary_devices\dp_vent_pump.dm : 24
+		code\ATMOSPHERICS\components\binary_devices\dp_vent_pump.dm : 179
+		code\ATMOSPHERICS\components\binary_devices\dp_vent_pump.dm : 185
+		code\ATMOSPHERICS\components\binary_devices\dp_vent_pump.dm : 191
+		code\ATMOSPHERICS\components\binary_devices\passive_gate.dm : 10
+		code\ATMOSPHERICS\components\binary_devices\pump.dm : 22
+		code\ATMOSPHERICS\components\binary_devices\pump.dm : 121
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 20
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 192
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 198
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 242
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 453
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 503
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 506
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 508
+		code\ATMOSPHERICS\components\unary\vent_scrubber.dm : 72
+		code\defines\obj.dm : 147
+		code\defines\obj.dm : 524
+		code\defines\obj.dm : 600
+		code\defines\turf.dm : 491
+		code\defines\turf.dm : 492
+		code\defines\turf.dm : 493
+		code\defines\obj\weapon.dm : 962
+		code\defines\obj\weapon.dm : 965
+		code\defines\obj\window.dm : 10
+		code\game\machinery\airlock_control.dm : 156
+		code\game\machinery\alarm.dm : 1
+		code\game\machinery\alarm.dm : 2
+		code\game\machinery\alarm.dm : 3
+		code\game\machinery\alarm.dm : 4
+		code\game\machinery\alarm.dm : 162
+		code\game\machinery\alarm.dm : 230
+		code\game\machinery\atmo_control.dm : 198
+		code\game\machinery\atmo_control.dm : 319
+		code\game\machinery\atmoalter\canister.dm : 8
+		code\game\machinery\atmoalter\canister.dm : 12
+		code\game\machinery\atmoalter\canister.dm : 55
+		code\game\machinery\atmoalter\canister.dm : 57
+		code\game\machinery\atmoalter\canister.dm : 216
+		code\game\machinery\atmoalter\canister.dm : 218
+		code\game\machinery\atmoalter\meter.dm : 24
+		code\game\machinery\atmoalter\meter.dm : 26
+		code\game\machinery\atmoalter\meter.dm : 27
+		code\game\machinery\atmoalter\meter.dm : 29
+		code\game\machinery\atmoalter\meter.dm : 30
+		code\game\machinery\atmoalter\meter.dm : 32
+		code\game\machinery\atmoalter\meter.dm : 33
+		code\game\machinery\atmoalter\portable_atmospherics.dm : 10
+		code\game\machinery\atmoalter\pump.dm : 126
+		code\game\machinery\atmoalter\scrubber.dm : 125
+		code\game\machinery\embedded_controller\airlock_controller.dm : 78
+		code\game\machinery\embedded_controller\airlock_controller.dm : 132
+		code\game\machinery\embedded_controller\airlock_controller.dm : 134
+		code\game\objects\jetpack.dm : 17
+		code\game\objects\tank.dm : 42
+		code\game\objects\tank.dm : 257
+		code\game\objects\tank.dm : 258
+		code\game\objects\tank.dm : 263
+		code\game\objects\tank.dm : 269
+		code\game\objects\tank.dm : 276
+		code\game\objects\tank.dm : 279
+		code\game\objects\tank.dm : 287
+		code\game\objects\devices\scanners.dm : 226
+		code\modules\Chemistry\Chemistry-Tools.dm : 317
+		code\WorkInProgress\recycling\disposal-construction.dm : 10
+		code\WorkInProgress\recycling\disposal.dm : 209
+		code\WorkInProgress\recycling\disposal.dm : 303
+		code\WorkInProgress\recycling\disposal.dm : 324
+		code\WorkInProgress\recycling\disposal.dm : 335
+CELL_VOLUME
+	Value: 2500
+	Comment: 
+	Defined in: code\setup.dm : 3
+	Number of references: 19
+		code\setup.dm : 59
+		code\setup.dm : 71
+		code\FEA\FEA_airgroup.dm : 216
+		code\FEA\FEA_gas_mixture.dm : 39
+		code\FEA\FEA_turf_tile.dm : 391
+		code\FEA\FEA_turf_tile.dm : 393
+		code\FEA\FEA_turf_tile.dm : 394
+		code\game\turf.dm : 590
+		code\game\turf.dm : 595
+		code\game\objects\weapons.dm : 50
+		code\modules\mob\living\carbon\life.dm : 185
+		code\WorkInProgress\recycling\disposal.dm : 63
+		code\ZAS\Fire.dm : 43
+		code\ZAS\Fire.dm : 77
+		code\ZAS\Fire.dm : 130
+		code\ZAS\Fire.dm : 133
+		code\ZAS\Fire.dm : 169
+		code\ZAS\Processing.dm : 66
+		code\ZAS\Processing.dm : 67
+O2STANDARD
+	Value: 0.21
+	Comment: 
+	Defined in: code\setup.dm : 6
+	Number of references: 15
+		code\setup.dm : 69
+		code\Aryn\NewPipes.dm : 154
+		code\ATMOSPHERICS\pipes.dm : 485
+		code\defines\turf.dm : 84
+		code\defines\turf.dm : 93
+		code\defines\turf.dm : 352
+		code\game\machinery\alarm.dm : 5
+		code\game\machinery\alarm.dm : 6
+		code\game\machinery\alarm.dm : 7
+		code\game\machinery\alarm.dm : 178
+		code\game\machinery\atmoalter\canister.dm : 286
+		code\game\objects\tank.dm : 257
+		code\game\objects\tank.dm : 276
+		code\game\objects\devices\scanners.dm : 242
+		code\modules\admin\verbs\randomverbs.dm : 452
+N2STANDARD
+	Value: 0.79
+	Comment: 
+	Defined in: code\setup.dm : 7
+	Number of references: 12
+		code\setup.dm : 70
+		code\Aryn\NewPipes.dm : 155
+		code\ATMOSPHERICS\pipes.dm : 486
+		code\defines\turf.dm : 85
+		code\defines\turf.dm : 94
+		code\defines\turf.dm : 353
+		code\game\machinery\alarm.dm : 173
+		code\game\machinery\atmoalter\canister.dm : 287
+		code\game\objects\tank.dm : 258
+		code\game\objects\tank.dm : 279
+		code\game\objects\devices\scanners.dm : 237
+		code\modules\admin\verbs\randomverbs.dm : 453
+MOLES_PLASMA_VISIBLE
+	Value: 0.5
+	Comment: 
+	Defined in: code\setup.dm : 11
+	Number of references: 1
+		code\FEA\FEA_gas_mixture.dm : 112
+BREATH_VOLUME
+	Value: 0.5
+	Comment: 
+	Defined in: code\setup.dm : 13
+	Number of references: 10
+		code\setup.dm : 71
+		code\modules\mob\living\carbon\life.dm : 95
+		code\modules\mob\living\carbon\life.dm : 101
+		code\modules\mob\living\carbon\life.dm : 503
+		code\modules\mob\living\carbon\alien\life.dm : 55
+		code\modules\mob\living\carbon\alien\life.dm : 76
+		code\modules\mob\living\silicon\robot\life.dm : 82
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 673
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 679
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 706
+MINIMUM_AIR_RATIO_TO_SUSPEND
+	Value: 0.048
+	Comment: 
+	Defined in: code\setup.dm : 17
+	Number of references: 28
+		code\setup.dm : 76
+		code\setup.dm : 79
+		code\FEA\FEA_gas_mixture.dm : 310
+		code\FEA\FEA_gas_mixture.dm : 311
+		code\FEA\FEA_gas_mixture.dm : 312
+		code\FEA\FEA_gas_mixture.dm : 313
+		code\FEA\FEA_gas_mixture.dm : 321
+		code\FEA\FEA_gas_mixture.dm : 428
+		code\FEA\FEA_gas_mixture.dm : 494
+		code\FEA\FEA_gas_mixture.dm : 495
+		code\FEA\FEA_gas_mixture.dm : 496
+		code\FEA\FEA_gas_mixture.dm : 497
+		code\FEA\FEA_gas_mixture.dm : 508
+		code\FEA\FEA_gas_mixture.dm : 519
+		code\FEA\FEA_gas_mixture.dm : 520
+		code\FEA\FEA_gas_mixture.dm : 521
+		code\FEA\FEA_gas_mixture.dm : 522
+		code\FEA\FEA_gas_mixture.dm : 530
+		code\FEA\FEA_gas_mixture.dm : 545
+		code\FEA\FEA_gas_mixture.dm : 546
+		code\FEA\FEA_gas_mixture.dm : 547
+		code\FEA\FEA_gas_mixture.dm : 548
+		code\FEA\FEA_gas_mixture.dm : 1051
+		code\FEA\FEA_gas_mixture.dm : 1054
+		code\FEA\FEA_gas_mixture.dm : 1057
+		code\FEA\FEA_gas_mixture.dm : 1060
+		code\FEA\FEA_gas_mixture.dm : 1075
+		code\FEA\FEA_gas_mixture.dm : 1086
+MINIMUM_TEMPERATURE_RATIO_TO_SUSPEND
+	Value: 0.048
+	Comment: 
+	Defined in: code\setup.dm : 20
+	Number of references: 8
+		code\Aryn\NewPipes.dm : 1280
+		code\ATMOSPHERICS\datum_pipeline.dm : 186
+		code\FEA\FEA_gas_mixture.dm : 918
+		code\FEA\FEA_gas_mixture.dm : 922
+		code\FEA\FEA_gas_mixture.dm : 950
+		code\FEA\FEA_gas_mixture.dm : 978
+		code\FEA\FEA_gas_mixture.dm : 1001
+		code\FEA\FEA_gas_mixture.dm : 1065
+MINIMUM_TEMPERATURE_DELTA_TO_SUSPEND
+	Value: 4
+	Comment: 
+	Defined in: code\setup.dm : 21
+	Number of references: 11
+		code\Aryn\NewPipes.dm : 1280
+		code\ATMOSPHERICS\datum_pipeline.dm : 186
+		code\FEA\FEA_gas_mixture.dm : 315
+		code\FEA\FEA_gas_mixture.dm : 500
+		code\FEA\FEA_gas_mixture.dm : 550
+		code\FEA\FEA_gas_mixture.dm : 917
+		code\FEA\FEA_gas_mixture.dm : 921
+		code\FEA\FEA_gas_mixture.dm : 949
+		code\FEA\FEA_gas_mixture.dm : 977
+		code\FEA\FEA_gas_mixture.dm : 1000
+		code\FEA\FEA_gas_mixture.dm : 1064
+MINIMUM_TEMPERATURE_DELTA_TO_CONSIDER
+	Value: 0.5
+	Comment: 
+	Defined in: code\setup.dm : 23
+	Number of references: 12
+		code\FEA\FEA_gas_mixture.dm : 330
+		code\FEA\FEA_gas_mixture.dm : 577
+		code\FEA\FEA_gas_mixture.dm : 679
+		code\FEA\FEA_gas_mixture.dm : 834
+		code\FEA\FEA_gas_mixture.dm : 883
+		code\FEA\FEA_gas_mixture.dm : 965
+		code\FEA\FEA_gas_mixture.dm : 991
+		code\FEA\FEA_gas_mixture.dm : 1012
+		code\FEA\FEA_gas_mixture.dm : 1025
+		code\FEA\FEA_gas_mixture.dm : 1039
+		code\FEA\FEA_turf_tile.dm : 528
+		code\FEA\FEA_turf_tile.dm : 536
+FLOOR_HEAT_TRANSFER_COEFFICIENT
+	Value: 0.08
+	Comment: 
+	Defined in: code\setup.dm : 28
+	Number of references: 1
+		code\FEA\FEA_turf_tile.dm : 501
+WALL_HEAT_TRANSFER_COEFFICIENT
+	Value: 0.03
+	Comment: 
+	Defined in: code\setup.dm : 29
+	Number of references: 3
+		code\Aryn\NewPipes.dm : 13
+		code\ATMOSPHERICS\pipes.dm : 77
+		code\defines\turf.dm : 289
+SPACE_HEAT_TRANSFER_COEFFICIENT
+	Value: 0.20
+	Comment: 
+	Defined in: code\setup.dm : 30
+	Number of references: 0
+OPEN_HEAT_TRANSFER_COEFFICIENT
+	Value: 0.40
+	Comment: 
+	Defined in: code\setup.dm : 31
+	Number of references: 3
+		code\defines\turf.dm : 36
+		code\FEA\FEA_gas_mixture.dm : 691
+		code\ZAS\Processing.dm : 42
+WINDOW_HEAT_TRANSFER_COEFFICIENT
+	Value: 0.10
+	Comment: 
+	Defined in: code\setup.dm : 32
+	Number of references: 9
+		code\ATMOSPHERICS\pipes.dm : 373
+		code\FEA\FEA_turf_tile.dm : 431
+		code\FEA\FEA_turf_tile.dm : 436
+		code\FEA\FEA_turf_tile.dm : 440
+		code\FEA\FEA_turf_tile.dm : 445
+		code\FEA\FEA_turf_tile.dm : 447
+		code\FEA\FEA_turf_tile.dm : 450
+		code\FEA\FEA_turf_tile.dm : 454
+		code\FEA\FEA_turf_tile.dm : 457
+FIRE_SPREAD_RADIOSITY_SCALE
+	Value: 0.85
+	Comment: 
+	Defined in: code\setup.dm : 37
+	Number of references: 1
+		code\ZAS\Fire.dm : 126
+FIRE_GROWTH_RATE
+	Value: 50000
+	Comment: 
+	Defined in: code\setup.dm : 44
+	Number of references: 2
+		code\ZAS\Fire.dm : 83
+		code\ZAS\Fire.dm : 93
+PLASMA_MINIMUM_OXYGEN_NEEDED
+	Value: 2
+	Comment: 
+	Defined in: code\setup.dm : 48
+	Number of references: 0
+PLASMA_MINIMUM_OXYGEN_PLASMA_RATIO
+	Value: 30
+	Comment: 
+	Defined in: code\setup.dm : 49
+	Number of references: 0
+PLASMA_OXYGEN_FULLBURN
+	Value: 10
+	Comment: 
+	Defined in: code\setup.dm : 50
+	Number of references: 2
+		code\FEA\FEA_gas_mixture.dm : 185
+		code\FEA\FEA_gas_mixture.dm : 188
+SPARK_TEMP
+	Value: 3500
+	Comment: 
+	Defined in: code\setup.dm : 52
+	Number of references: 16
+		code\game\chemistry.dm : 172
+		code\game\objects\devices\PDA.dm : 1606
+		code\game\objects\items\clothing.dm : 71
+		code\game\objects\items\clothing.dm : 150
+		code\game\objects\items\weapons\cigs_lighters.dm : 94
+		code\game\objects\items\weapons\flamethrower.dm : 155
+		code\game\objects\items\weapons\flamethrower.dm : 338
+		code\game\objects\items\weapons\grenades.dm : 62
+		code\game\objects\items\weapons\grenades.dm : 317
+		code\game\objects\items\weapons\implants.dm : 303
+		code\game\objects\items\weapons\tools.dm : 158
+		code\game\objects\items\weapons\tools.dm : 236
+		code\modules\Chemistry\Chemistry-Recipes.dm : 274
+		code\WorkInProgress\Abi79\uplinks.dm : 273
+		code\WorkInProgress\Alfie275\anomalies.dm : 249
+		code\WorkInProgress\Alfie275\anomalyeffects.dm : 82
+T0C
+	Value: 273.15
+	Comment: 
+	Defined in: code\setup.dm : 54
+	Number of references: 90
+		code\setup.dm : 82
+		code\setup.dm : 83
+		code\setup.dm : 85
+		code\setup.dm : 86
+		code\Aryn\NewPipes.dm : 921
+		code\Aryn\NewPipes.dm : 922
+		code\Aryn\NewPipes.dm : 923
+		code\Aryn\NewPipes.dm : 924
+		code\Aryn\NewPipes.dm : 940
+		code\Aryn\NewPipes.dm : 942
+		code\Aryn\NewPipes.dm : 1206
+		code\ATMOSPHERICS\pipes.dm : 438
+		code\ATMOSPHERICS\pipes.dm : 552
+		code\ATMOSPHERICS\components\unary\oxygen_generator.dm : 42
+		code\defines\obj\clothing.dm : 190
+		code\defines\obj\clothing.dm : 502
+		code\defines\obj\clothing.dm : 726
+		code\defines\obj\weapon.dm : 626
+		code\defines\obj\clothing\gimmick.dm : 48
+		code\FEA\FEA_turf_tile.dm : 499
+		code\game\machinery\alarm.dm : 194
+		code\game\machinery\alarm.dm : 196
+		code\game\machinery\alarm.dm : 440
+		code\game\machinery\cryo.dm : 80
+		code\game\machinery\cryo.dm : 176
+		code\game\machinery\cryo2.dm : 70
+		code\game\machinery\cryo2.dm : 167
+		code\game\machinery\Freezer.dm : 11
+		code\game\machinery\Freezer.dm : 12
+		code\game\machinery\Freezer.dm : 13
+		code\game\machinery\Freezer.dm : 14
+		code\game\machinery\Freezer.dm : 53
+		code\game\machinery\Freezer.dm : 55
+		code\game\machinery\Sleeper.dm : 247
+		code\game\machinery\spaceheater.dm : 166
+		code\game\machinery\atmoalter\canister.dm : 13
+		code\game\machinery\atmoalter\portable_atmospherics.dm : 137
+		code\game\objects\bomb.dm : 19
+		code\game\objects\bomb.dm : 35
+		code\game\objects\bomb.dm : 57
+		code\game\objects\bomb.dm : 76
+		code\game\objects\bomb.dm : 105
+		code\game\objects\bomb.dm : 106
+		code\game\objects\bomb.dm : 128
+		code\game\objects\bomb.dm : 129
+		code\game\objects\bomb.dm : 151
+		code\game\objects\bomb.dm : 152
+		code\game\objects\tank.dm : 201
+		code\game\objects\tank.dm : 235
+		code\game\objects\tank.dm : 303
+		code\game\objects\tank.dm : 308
+		code\game\objects\tank.dm : 313
+		code\game\objects\weapons.dm : 631
+		code\game\objects\weapons.dm : 632
+		code\game\objects\weapons.dm : 636
+		code\game\objects\weapons.dm : 724
+		code\game\objects\weapons.dm : 725
+		code\game\objects\weapons.dm : 729
+		code\game\objects\weapons.dm : 809
+		code\game\objects\weapons.dm : 810
+		code\game\objects\weapons.dm : 814
+		code\game\objects\weapons.dm : 861
+		code\game\objects\weapons.dm : 862
+		code\game\objects\weapons.dm : 866
+		code\game\objects\devices\PDA.dm : 742
+		code\game\objects\devices\PDA.dm : 1446
+		code\game\objects\devices\PDA.dm : 1539
+		code\game\objects\devices\scanners.dm : 164
+		code\game\objects\devices\scanners.dm : 258
+		code\game\objects\items\weapons\flamethrower.dm : 200
+		code\game\objects\spawners\bomb.dm : 19
+		code\game\objects\spawners\bomb.dm : 35
+		code\game\objects\spawners\bomb.dm : 57
+		code\game\objects\spawners\bomb.dm : 76
+		code\modules\Chemistry\ChemistrySystemIV.dm : 45
+		code\modules\Chemistry\ChemistrySystemIV.dm : 46
+		code\modules\mob\living\carbon\carbon.dm : 3
+		code\modules\mob\living\carbon\life.dm : 164
+		code\modules\mob\living\carbon\life.dm : 196
+		code\modules\mob\living\carbon\life.dm : 197
+		code\modules\mob\living\carbon\life.dm : 591
+		code\modules\mob\living\carbon\life.dm : 596
+		code\modules\mob\living\carbon\alien\life.dm : 94
+		code\modules\mob\living\carbon\alien\humanoid\death.dm : 21
+		code\modules\mob\living\carbon\human\death.dm : 38
+		code\modules\mob\living\silicon\robot\life.dm : 73
+		code\modules\mob\living\silicon\robot\life.dm : 113
+		code\WorkInProgress\ZeroPoint\SuperMatter.dm : 73
+		code\WorkInProgress\ZeroPoint\SuperMatter.dm : 87
+		code\WorkInProgress\ZeroPoint\SuperMatter.dm : 105
+T20C
+	Value: 293.15
+	Comment: 
+	Defined in: code\setup.dm : 55
+	Number of references: 36
+		code\setup.dm : 59
+		code\setup.dm : 60
+		code\setup.dm : 61
+		code\setup.dm : 80
+		code\Aryn\NewPipes.dm : 107
+		code\Aryn\NewPipes.dm : 926
+		code\ATMOSPHERICS\pipes.dm : 412
+		code\ATMOSPHERICS\pipes.dm : 425
+		code\ATMOSPHERICS\pipes.dm : 455
+		code\ATMOSPHERICS\pipes.dm : 469
+		code\ATMOSPHERICS\pipes.dm : 483
+		code\ATMOSPHERICS\components\unary\cold_sink.dm : 10
+		code\ATMOSPHERICS\components\unary\heat_source.dm : 12
+		code\defines\turf.dm : 18
+		code\defines\turf.dm : 45
+		code\game\machinery\alarm.dm : 8
+		code\game\machinery\alarm.dm : 9
+		code\game\machinery\alarm.dm : 10
+		code\game\machinery\alarm.dm : 11
+		code\game\machinery\alarm.dm : 193
+		code\game\machinery\cryo.dm : 207
+		code\game\machinery\cryo.dm : 216
+		code\game\machinery\cryo2.dm : 199
+		code\game\machinery\cryo2.dm : 209
+		code\game\machinery\atmoalter\portable_atmospherics.dm : 16
+		code\game\objects\jetpack.dm : 17
+		code\game\objects\tank.dm : 213
+		code\game\objects\tank.dm : 257
+		code\game\objects\tank.dm : 258
+		code\game\objects\tank.dm : 263
+		code\game\objects\tank.dm : 269
+		code\game\objects\tank.dm : 276
+		code\game\objects\tank.dm : 279
+		code\game\objects\tank.dm : 287
+		code\modules\admin\verbs\randomverbs.dm : 456
+		code\modules\Chemistry\ChemistrySystemIV.dm : 77
+TCMB
+	Value: 2.7
+	Comment: 
+	Defined in: code\setup.dm : 56
+	Number of references: 8
+		code\Aryn\NewPipes.dm : 232
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 291
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 298
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 322
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 338
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 499
+		code\WorkInProgress\ISaidNo Release\mining.dm : 729
+		code\ZAS\Functions.dm : 27
+TSPC
+	Value: 253.15
+	Comment: 
+	Defined in: code\setup.dm : 57
+	Number of references: 4
+		code\defines\turf.dm : 35
+		code\defines\turf.dm : 107
+		code\defines\turf.dm : 155
+		code\defines\turf.dm : 270
+TESPC
+	Value: 243.15
+	Comment: 
+	Defined in: code\setup.dm : 58
+	Number of references: 1
+		code\modules\mob\living\carbon\life.dm : 167
+NORMPIPERATE
+	Value: 30
+	Comment: 
+	Defined in: code\setup.dm : 88
+	Number of references: 0
+HEATPIPERATE
+	Value: 8
+	Comment: 
+	Defined in: code\setup.dm : 89
+	Number of references: 0
+FLOWFRAC
+	Value: 0.99
+	Comment: 
+	Defined in: code\setup.dm : 91
+	Number of references: 0
+ONBACK
+	Value: 1
+	Comment: 
+	Defined in: code\setup.dm : 95
+	Number of references: 2
+		code\defines\obj\weapon.dm : 963
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 748
+TABLEPASS
+	Value: 2
+	Comment: 
+	Defined in: code\setup.dm : 96
+	Number of references: 160
+		code\defines\obj.dm : 165
+		code\defines\obj.dm : 182
+		code\defines\obj.dm : 190
+		code\defines\obj.dm : 202
+		code\defines\obj.dm : 213
+		code\defines\obj.dm : 222
+		code\defines\obj.dm : 234
+		code\defines\obj.dm : 250
+		code\defines\obj.dm : 260
+		code\defines\obj.dm : 269
+		code\defines\obj.dm : 277
+		code\defines\obj.dm : 291
+		code\defines\obj.dm : 308
+		code\defines\obj.dm : 320
+		code\defines\obj.dm : 601
+		code\defines\obj.dm : 628
+		code\defines\obj\assemblies.dm : 18
+		code\defines\obj\assemblies.dm : 28
+		code\defines\obj\assemblies.dm : 37
+		code\defines\obj\assemblies.dm : 47
+		code\defines\obj\assemblies.dm : 56
+		code\defines\obj\assemblies.dm : 67
+		code\defines\obj\assemblies.dm : 77
+		code\defines\obj\assemblies.dm : 86
+		code\defines\obj\assemblies.dm : 95
+		code\defines\obj\assemblies.dm : 104
+		code\defines\obj\assemblies.dm : 113
+		code\defines\obj\assemblies.dm : 122
+		code\defines\obj\assemblies.dm : 132
+		code\defines\obj\assemblies.dm : 148
+		code\defines\obj\clothing.dm : 171
+		code\defines\obj\clothing.dm : 176
+		code\defines\obj\clothing.dm : 189
+		code\defines\obj\clothing.dm : 195
+		code\defines\obj\clothing.dm : 201
+		code\defines\obj\clothing.dm : 231
+		code\defines\obj\clothing.dm : 239
+		code\defines\obj\clothing.dm : 248
+		code\defines\obj\clothing.dm : 254
+		code\defines\obj\clothing.dm : 266
+		code\defines\obj\clothing.dm : 272
+		code\defines\obj\clothing.dm : 278
+		code\defines\obj\clothing.dm : 285
+		code\defines\obj\clothing.dm : 292
+		code\defines\obj\clothing.dm : 302
+		code\defines\obj\clothing.dm : 307
+		code\defines\obj\clothing.dm : 312
+		code\defines\obj\clothing.dm : 326
+		code\defines\obj\clothing.dm : 359
+		code\defines\obj\clothing.dm : 371
+		code\defines\obj\clothing.dm : 389
+		code\defines\obj\clothing.dm : 398
+		code\defines\obj\clothing.dm : 407
+		code\defines\obj\clothing.dm : 503
+		code\defines\obj\clothing.dm : 511
+		code\defines\obj\clothing.dm : 529
+		code\defines\obj\clothing.dm : 599
+		code\defines\obj\clothing.dm : 607
+		code\defines\obj\clothing.dm : 615
+		code\defines\obj\clothing.dm : 627
+		code\defines\obj\clothing.dm : 708
+		code\defines\obj\clothing.dm : 729
+		code\defines\obj\clothing.dm : 957
+		code\defines\obj\clothing.dm : 1000
+		code\defines\obj\storage.dm : 67
+		code\defines\obj\storage.dm : 170
+		code\defines\obj\storage.dm : 198
+		code\defines\obj\weapon.dm : 10
+		code\defines\obj\weapon.dm : 36
+		code\defines\obj\weapon.dm : 69
+		code\defines\obj\weapon.dm : 202
+		code\defines\obj\weapon.dm : 224
+		code\defines\obj\weapon.dm : 235
+		code\defines\obj\weapon.dm : 246
+		code\defines\obj\weapon.dm : 255
+		code\defines\obj\weapon.dm : 346
+		code\defines\obj\weapon.dm : 450
+		code\defines\obj\weapon.dm : 570
+		code\defines\obj\weapon.dm : 591
+		code\defines\obj\weapon.dm : 603
+		code\defines\obj\weapon.dm : 807
+		code\defines\obj\weapon.dm : 816
+		code\defines\obj\weapon.dm : 822
+		code\defines\obj\weapon.dm : 829
+		code\defines\obj\weapon.dm : 841
+		code\defines\obj\weapon.dm : 869
+		code\defines\obj\weapon.dm : 907
+		code\defines\obj\weapon.dm : 921
+		code\defines\obj\weapon.dm : 932
+		code\defines\obj\weapon.dm : 943
+		code\defines\obj\weapon.dm : 949
+		code\defines\obj\weapon.dm : 955
+		code\defines\obj\weapon.dm : 963
+		code\defines\obj\weapon.dm : 991
+		code\defines\obj\weapon.dm : 1014
+		code\defines\obj\weapon.dm : 1026
+		code\defines\obj\weapon.dm : 1049
+		code\defines\obj\weapon.dm : 1067
+		code\defines\obj\weapon.dm : 1105
+		code\defines\obj\weapon.dm : 1159
+		code\defines\obj\weapon.dm : 1173
+		code\defines\obj\weapon.dm : 1188
+		code\defines\obj\weapon.dm : 1204
+		code\defines\obj\weapon.dm : 1220
+		code\defines\obj\weapon.dm : 1239
+		code\defines\obj\weapon.dm : 1250
+		code\defines\obj\clothing\gimmick.dm : 47
+		code\defines\obj\clothing\gimmick.dm : 62
+		code\defines\obj\clothing\gimmick.dm : 75
+		code\defines\obj\clothing\gimmick.dm : 250
+		code\game\chemistry.dm : 13
+		code\game\chemistry.dm : 28
+		code\game\chemistry.dm : 41
+		code\game\gamemodes\nuclear\pinpointer.dm : 4
+		code\game\machinery\bots\cleanbot.dm : 12
+		code\game\machinery\bots\floorbot.dm : 11
+		code\game\machinery\bots\floorbot.dm : 24
+		code\game\objects\effect_system.dm : 12
+		code\game\objects\projectiles.dm : 63
+		code\game\objects\projectiles.dm : 171
+		code\game\objects\devices\chameleonproj.dm : 33
+		code\game\objects\devices\multitool.dm : 8
+		code\game\objects\devices\PDA.dm : 11
+		code\game\objects\devices\powersink.dm : 8
+		code\game\objects\devices\shields.dm : 4
+		code\game\objects\items\clothing.dm : 270
+		code\game\objects\items\robot_parts.dm : 9
+		code\game\objects\items\robot_parts.dm : 16
+		code\game\objects\items\weapons\AI_modules.dm : 14
+		code\game\objects\items\weapons\flamethrower.dm : 11
+		code\game\objects\items\weapons\grenades.dm : 18
+		code\game\objects\items\weapons\grenades.dm : 31
+		code\game\objects\items\weapons\kitchen.dm : 13
+		code\game\objects\items\weapons\RCD.dm : 16
+		code\game\objects\items\weapons\RCD.dm : 34
+		code\game\objects\items\weapons\swords_axes_etc.dm : 66
+		code\game\objects\secstorage\sbriefcase.dm : 6
+		code\game\objects\secstorage\ssafe.dm : 7
+		code\game\objects\storage\belts.dm : 1
+		code\modules\Chemistry\Chemistry-Tools.dm : 20
+		code\modules\Chemistry\Chemistry-Tools.dm : 404
+		code\modules\Chemistry\Chemistry-Tools.dm : 887
+		code\modules\Chemistry\Chemistry-Tools.dm : 906
+		code\modules\Chemistry\Chemistry-Tools.dm : 926
+		code\modules\Chemistry\Chemistry-Tools.dm : 940
+		code\modules\mob\living\silicon\robot\robot_modules.dm : 6
+		code\modules\power\cell.dm : 10
+		code\modules\power\lighting.dm : 490
+		code\WorkInProgress\KeelinsStuff.dm : 84
+		code\WorkInProgress\Abi79\uplinks.dm : 42
+		code\WorkInProgress\food\drinks.dm : 5
+		code\WorkInProgress\food\drinks.dm : 119
+		code\WorkInProgress\ISaidNo Release\mining.dm : 755
+		code\WorkInProgress\ISaidNo Release\mining.dm : 1329
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 461
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 462
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 464
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 465
+		code\WorkInProgress\recycling\scrap.dm : 23
+		code\WorkInProgress\UnifiedCabling\CablingCoil.dm : 13
+HALFMASK
+	Value: 4
+	Comment: 
+	Defined in: code\setup.dm : 97
+	Number of references: 0
+HEADSPACE
+	Value: 4
+	Comment: 
+	Defined in: code\setup.dm : 99
+	Number of references: 7
+		code\Aryn\ZAS Plasma.dm : 208
+		code\defines\obj\clothing.dm : 171
+		code\defines\obj\clothing.dm : 176
+		code\defines\obj\clothing.dm : 189
+		code\defines\obj\clothing.dm : 248
+		code\defines\obj\clothing.dm : 254
+		code\modules\mob\living\carbon\life.dm : 699
+MASKINTERNALS
+	Value: 8
+	Comment: 
+	Defined in: code\setup.dm : 101
+	Number of references: 11
+		code\defines\obj\clothing.dm : 326
+		code\defines\obj\clothing.dm : 359
+		code\defines\obj\clothing.dm : 371
+		code\defines\obj\clothing.dm : 389
+		code\game\objects\effect_system.dm : 412
+		code\game\objects\effect_system.dm : 428
+		code\game\objects\effect_system.dm : 516
+		code\game\objects\effect_system.dm : 530
+		code\game\objects\tank.dm : 51
+		code\modules\mob\living\carbon\life.dm : 116
+		code\modules\mob\living\carbon\life.dm : 131
+SUITSPACE
+	Value: 8
+	Comment: 
+	Defined in: code\setup.dm : 102
+	Number of references: 5
+		code\Aryn\ZAS Plasma.dm : 75
+		code\Aryn\ZAS Plasma.dm : 213
+		code\defines\obj\clothing.dm : 708
+		code\game\objects\items\clothing.dm : 270
+		code\modules\mob\living\carbon\life.dm : 697
+USEDELAY
+	Value: 16
+	Comment: 
+	Defined in: code\setup.dm : 104
+	Number of references: 9
+		code\defines\obj.dm : 182
+		code\defines\obj.dm : 190
+		code\defines\obj\weapon.dm : 202
+		code\defines\obj\weapon.dm : 255
+		code\defines\obj\weapon.dm : 346
+		code\game\chemistry.dm : 13
+		code\game\objects\devices\chameleonproj.dm : 33
+		code\WorkInProgress\KeelinsStuff.dm : 84
+		code\WorkInProgress\UnifiedCabling\CablingCoil.dm : 13
+NOSHIELD
+	Value: 32
+	Comment: 
+	Defined in: code\setup.dm : 105
+	Number of references: 3
+		code\defines\obj\weapon.dm : 932
+		code\defines\obj\weapon.dm : 943
+		code\game\objects\items\weapons\swords_axes_etc.dm : 66
+CONDUCT
+	Value: 64
+	Comment: 
+	Defined in: code\setup.dm : 106
+	Number of references: 94
+		code\Aryn\NewPipes.dm : 1
+		code\Aryn\NewPipes.dm : 1224
+		code\Aryn\NewPipes.dm : 1226
+		code\defines\obj.dm : 146
+		code\defines\obj.dm : 182
+		code\defines\obj.dm : 190
+		code\defines\obj.dm : 202
+		code\defines\obj.dm : 213
+		code\defines\obj.dm : 222
+		code\defines\obj.dm : 234
+		code\defines\obj.dm : 250
+		code\defines\obj.dm : 260
+		code\defines\obj.dm : 277
+		code\defines\obj.dm : 291
+		code\defines\obj.dm : 308
+		code\defines\obj.dm : 320
+		code\defines\obj\assemblies.dm : 18
+		code\defines\obj\assemblies.dm : 28
+		code\defines\obj\assemblies.dm : 37
+		code\defines\obj\assemblies.dm : 47
+		code\defines\obj\assemblies.dm : 56
+		code\defines\obj\assemblies.dm : 67
+		code\defines\obj\assemblies.dm : 77
+		code\defines\obj\assemblies.dm : 86
+		code\defines\obj\assemblies.dm : 95
+		code\defines\obj\assemblies.dm : 104
+		code\defines\obj\assemblies.dm : 113
+		code\defines\obj\assemblies.dm : 122
+		code\defines\obj\assemblies.dm : 132
+		code\defines\obj\assemblies.dm : 148
+		code\defines\obj\clothing.dm : 627
+		code\defines\obj\storage.dm : 67
+		code\defines\obj\storage.dm : 170
+		code\defines\obj\weapon.dm : 10
+		code\defines\obj\weapon.dm : 36
+		code\defines\obj\weapon.dm : 224
+		code\defines\obj\weapon.dm : 235
+		code\defines\obj\weapon.dm : 255
+		code\defines\obj\weapon.dm : 346
+		code\defines\obj\weapon.dm : 450
+		code\defines\obj\weapon.dm : 570
+		code\defines\obj\weapon.dm : 822
+		code\defines\obj\weapon.dm : 829
+		code\defines\obj\weapon.dm : 841
+		code\defines\obj\weapon.dm : 907
+		code\defines\obj\weapon.dm : 921
+		code\defines\obj\weapon.dm : 949
+		code\defines\obj\weapon.dm : 955
+		code\defines\obj\weapon.dm : 963
+		code\defines\obj\weapon.dm : 991
+		code\defines\obj\weapon.dm : 1026
+		code\defines\obj\weapon.dm : 1049
+		code\defines\obj\weapon.dm : 1067
+		code\defines\obj\weapon.dm : 1105
+		code\defines\obj\weapon.dm : 1159
+		code\defines\obj\weapon.dm : 1173
+		code\defines\obj\weapon.dm : 1188
+		code\defines\obj\weapon.dm : 1239
+		code\defines\obj\clothing\gimmick.dm : 47
+		code\FEA\FEA_turf_tile.dm : 384
+		code\FEA\FEA_turf_tile.dm : 515
+		code\FEA\FEA_turf_tile.dm : 521
+		code\FEA\FEA_turf_tile.dm : 550
+		code\FEA\FEA_turf_tile.dm : 551
+		code\FEA\FEA_turf_tile.dm : 555
+		code\FEA\FEA_turf_tile.dm : 556
+		code\game\chemistry.dm : 28
+		code\game\chemistry.dm : 41
+		code\game\gamemodes\nuclear\pinpointer.dm : 4
+		code\game\machinery\atmoalter\canister.dm : 5
+		code\game\objects\devices\chameleonproj.dm : 33
+		code\game\objects\devices\multitool.dm : 8
+		code\game\objects\devices\powersink.dm : 8
+		code\game\objects\devices\shields.dm : 4
+		code\game\objects\items\robot_parts.dm : 9
+		code\game\objects\items\robot_parts.dm : 16
+		code\game\objects\items\weapons\AI_modules.dm : 14
+		code\game\objects\items\weapons\flamethrower.dm : 11
+		code\game\objects\items\weapons\grenades.dm : 18
+		code\game\objects\items\weapons\grenades.dm : 31
+		code\game\objects\items\weapons\kitchen.dm : 13
+		code\game\objects\items\weapons\RCD.dm : 16
+		code\game\objects\items\weapons\RCD.dm : 34
+		code\game\objects\items\weapons\swords_axes_etc.dm : 66
+		code\modules\mob\living\silicon\robot\robot_modules.dm : 6
+		code\modules\power\lighting.dm : 265
+		code\modules\power\lighting.dm : 277
+		code\WorkInProgress\KeelinsStuff.dm : 84
+		code\WorkInProgress\Abi79\uplinks.dm : 42
+		code\WorkInProgress\ISaidNo Release\mining.dm : 755
+		code\WorkInProgress\recycling\scrap.dm : 23
+		code\WorkInProgress\recycling\scrap.dm : 132
+		code\WorkInProgress\recycling\scrap.dm : 134
+		code\WorkInProgress\UnifiedCabling\CablingCoil.dm : 13
+ONBELT
+	Value: 128
+	Comment: 
+	Defined in: code\setup.dm : 107
+	Number of references: 40
+		code\defines\obj.dm : 182
+		code\defines\obj.dm : 190
+		code\defines\obj.dm : 213
+		code\defines\obj.dm : 222
+		code\defines\obj.dm : 269
+		code\defines\obj\weapon.dm : 69
+		code\defines\obj\weapon.dm : 202
+		code\defines\obj\weapon.dm : 346
+		code\defines\obj\weapon.dm : 450
+		code\defines\obj\weapon.dm : 807
+		code\defines\obj\weapon.dm : 816
+		code\defines\obj\weapon.dm : 991
+		code\defines\obj\weapon.dm : 1220
+		code\defines\obj\weapon.dm : 1239
+		code\defines\obj\weapon.dm : 1250
+		code\defines\obj\clothing\gimmick.dm : 250
+		code\game\chemistry.dm : 13
+		code\game\chemistry.dm : 28
+		code\game\chemistry.dm : 41
+		code\game\gamemodes\nuclear\pinpointer.dm : 4
+		code\game\objects\devices\chameleonproj.dm : 33
+		code\game\objects\devices\PDA.dm : 11
+		code\game\objects\items\robot_parts.dm : 16
+		code\game\objects\items\weapons\grenades.dm : 18
+		code\game\objects\items\weapons\grenades.dm : 31
+		code\game\objects\storage\belts.dm : 1
+		code\modules\Chemistry\Chemistry-Tools.dm : 20
+		code\WorkInProgress\Abi79\uplinks.dm : 42
+		code\WorkInProgress\ISaidNo Release\hydroponics.dm : 1898
+		code\WorkInProgress\ISaidNo Release\mining.dm : 755
+		code\WorkInProgress\ISaidNo Release\mining.dm : 892
+		code\WorkInProgress\ISaidNo Release\mining.dm : 903
+		code\WorkInProgress\ISaidNo Release\mining.dm : 912
+		code\WorkInProgress\ISaidNo Release\mining.dm : 969
+		code\WorkInProgress\ISaidNo Release\mining.dm : 1018
+		code\WorkInProgress\ISaidNo Release\mining.dm : 1035
+		code\WorkInProgress\ISaidNo Release\mining.dm : 1228
+		code\WorkInProgress\ISaidNo Release\mining.dm : 1329
+		code\WorkInProgress\ISaidNo Release\mining.dm : 1520
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 801
+FPRINT
+	Value: 256
+	Comment: 
+	Defined in: code\setup.dm : 108
+	Number of references: 170
+		code\defines\atom.dm : 3
+		code\defines\obj.dm : 42
+		code\defines\obj.dm : 146
+		code\defines\obj.dm : 165
+		code\defines\obj.dm : 182
+		code\defines\obj.dm : 190
+		code\defines\obj.dm : 202
+		code\defines\obj.dm : 213
+		code\defines\obj.dm : 222
+		code\defines\obj.dm : 234
+		code\defines\obj.dm : 250
+		code\defines\obj.dm : 260
+		code\defines\obj.dm : 269
+		code\defines\obj.dm : 277
+		code\defines\obj.dm : 291
+		code\defines\obj.dm : 308
+		code\defines\obj.dm : 320
+		code\defines\obj.dm : 478
+		code\defines\obj.dm : 522
+		code\defines\obj.dm : 582
+		code\defines\obj.dm : 599
+		code\defines\obj.dm : 601
+		code\defines\obj.dm : 647
+		code\defines\obj\assemblies.dm : 18
+		code\defines\obj\assemblies.dm : 28
+		code\defines\obj\assemblies.dm : 37
+		code\defines\obj\assemblies.dm : 47
+		code\defines\obj\assemblies.dm : 56
+		code\defines\obj\assemblies.dm : 67
+		code\defines\obj\assemblies.dm : 77
+		code\defines\obj\assemblies.dm : 86
+		code\defines\obj\assemblies.dm : 95
+		code\defines\obj\assemblies.dm : 104
+		code\defines\obj\assemblies.dm : 113
+		code\defines\obj\assemblies.dm : 122
+		code\defines\obj\assemblies.dm : 132
+		code\defines\obj\assemblies.dm : 148
+		code\defines\obj\closet.dm : 11
+		code\defines\obj\closet.dm : 28
+		code\defines\obj\closet.dm : 228
+		code\defines\obj\clothing.dm : 171
+		code\defines\obj\clothing.dm : 176
+		code\defines\obj\clothing.dm : 189
+		code\defines\obj\clothing.dm : 195
+		code\defines\obj\clothing.dm : 201
+		code\defines\obj\clothing.dm : 231
+		code\defines\obj\clothing.dm : 239
+		code\defines\obj\clothing.dm : 248
+		code\defines\obj\clothing.dm : 254
+		code\defines\obj\clothing.dm : 266
+		code\defines\obj\clothing.dm : 272
+		code\defines\obj\clothing.dm : 278
+		code\defines\obj\clothing.dm : 285
+		code\defines\obj\clothing.dm : 292
+		code\defines\obj\clothing.dm : 302
+		code\defines\obj\clothing.dm : 307
+		code\defines\obj\clothing.dm : 312
+		code\defines\obj\clothing.dm : 326
+		code\defines\obj\clothing.dm : 359
+		code\defines\obj\clothing.dm : 371
+		code\defines\obj\clothing.dm : 389
+		code\defines\obj\clothing.dm : 398
+		code\defines\obj\clothing.dm : 407
+		code\defines\obj\clothing.dm : 503
+		code\defines\obj\clothing.dm : 511
+		code\defines\obj\clothing.dm : 529
+		code\defines\obj\clothing.dm : 599
+		code\defines\obj\clothing.dm : 607
+		code\defines\obj\clothing.dm : 615
+		code\defines\obj\clothing.dm : 627
+		code\defines\obj\clothing.dm : 708
+		code\defines\obj\clothing.dm : 729
+		code\defines\obj\clothing.dm : 957
+		code\defines\obj\clothing.dm : 1000
+		code\defines\obj\machinery.dm : 180
+		code\defines\obj\machinery.dm : 201
+		code\defines\obj\storage.dm : 7
+		code\defines\obj\storage.dm : 67
+		code\defines\obj\storage.dm : 170
+		code\defines\obj\storage.dm : 198
+		code\defines\obj\weapon.dm : 10
+		code\defines\obj\weapon.dm : 36
+		code\defines\obj\weapon.dm : 69
+		code\defines\obj\weapon.dm : 202
+		code\defines\obj\weapon.dm : 224
+		code\defines\obj\weapon.dm : 235
+		code\defines\obj\weapon.dm : 255
+		code\defines\obj\weapon.dm : 346
+		code\defines\obj\weapon.dm : 450
+		code\defines\obj\weapon.dm : 570
+		code\defines\obj\weapon.dm : 591
+		code\defines\obj\weapon.dm : 603
+		code\defines\obj\weapon.dm : 807
+		code\defines\obj\weapon.dm : 816
+		code\defines\obj\weapon.dm : 822
+		code\defines\obj\weapon.dm : 829
+		code\defines\obj\weapon.dm : 841
+		code\defines\obj\weapon.dm : 869
+		code\defines\obj\weapon.dm : 907
+		code\defines\obj\weapon.dm : 921
+		code\defines\obj\weapon.dm : 932
+		code\defines\obj\weapon.dm : 943
+		code\defines\obj\weapon.dm : 949
+		code\defines\obj\weapon.dm : 955
+		code\defines\obj\weapon.dm : 963
+		code\defines\obj\weapon.dm : 991
+		code\defines\obj\weapon.dm : 1014
+		code\defines\obj\weapon.dm : 1026
+		code\defines\obj\weapon.dm : 1049
+		code\defines\obj\weapon.dm : 1067
+		code\defines\obj\weapon.dm : 1105
+		code\defines\obj\weapon.dm : 1159
+		code\defines\obj\weapon.dm : 1173
+		code\defines\obj\weapon.dm : 1188
+		code\defines\obj\weapon.dm : 1204
+		code\defines\obj\clothing\gimmick.dm : 47
+		code\defines\obj\clothing\gimmick.dm : 62
+		code\defines\obj\clothing\gimmick.dm : 75
+		code\defines\obj\clothing\gimmick.dm : 250
+		code\game\chemistry.dm : 13
+		code\game\chemistry.dm : 28
+		code\game\chemistry.dm : 41
+		code\game\disease\dishincubator.dm : 15
+		code\game\gamemodes\nuclear\pinpointer.dm : 4
+		code\game\machinery\cryo.dm : 7
+		code\game\machinery\spaceheater.dm : 13
+		code\game\machinery\atmoalter\canister.dm : 5
+		code\game\machinery\bots\medbot.dm : 14
+		code\game\objects\devices\chameleonproj.dm : 33
+		code\game\objects\devices\multitool.dm : 8
+		code\game\objects\devices\PDA.dm : 11
+		code\game\objects\devices\powersink.dm : 8
+		code\game\objects\devices\shields.dm : 4
+		code\game\objects\items\clothing.dm : 270
+		code\game\objects\items\robot_parts.dm : 9
+		code\game\objects\items\robot_parts.dm : 16
+		code\game\objects\items\weapons\AI_modules.dm : 14
+		code\game\objects\items\weapons\flamethrower.dm : 11
+		code\game\objects\items\weapons\grenades.dm : 18
+		code\game\objects\items\weapons\grenades.dm : 31
+		code\game\objects\items\weapons\kitchen.dm : 13
+		code\game\objects\items\weapons\RCD.dm : 16
+		code\game\objects\items\weapons\RCD.dm : 34
+		code\game\objects\items\weapons\swords_axes_etc.dm : 66
+		code\game\objects\items\weapons\urn.dm : 4
+		code\game\objects\secstorage\sbriefcase.dm : 6
+		code\game\objects\secstorage\ssafe.dm : 7
+		code\game\objects\storage\belts.dm : 1
+		code\game\objects\storage\crates.dm : 11
+		code\modules\Chemistry\Chemistry-Machinery.dm : 130
+		code\modules\Chemistry\Chemistry-Tools.dm : 20
+		code\modules\Chemistry\Chemistry-Tools.dm : 316
+		code\modules\Chemistry\Chemistry-Tools.dm : 404
+		code\modules\Chemistry\Chemistry-Tools.dm : 860
+		code\modules\Chemistry\Chemistry-Tools.dm : 887
+		code\modules\Chemistry\Chemistry-Tools.dm : 906
+		code\modules\Chemistry\Chemistry-Tools.dm : 926
+		code\modules\Chemistry\Chemistry-Tools.dm : 940
+		code\modules\mob\living\silicon\robot\robot_modules.dm : 6
+		code\modules\power\cell.dm : 10
+		code\modules\power\lighting.dm : 490
+		code\WorkInProgress\KeelinsStuff.dm : 84
+		code\WorkInProgress\Abi79\uplinks.dm : 42
+		code\WorkInProgress\food\drinks.dm : 5
+		code\WorkInProgress\food\drinks.dm : 119
+		code\WorkInProgress\ISaidNo Release\mining.dm : 755
+		code\WorkInProgress\ISaidNo Release\mining.dm : 1329
+		code\WorkInProgress\recycling\disposal.dm : 41
+		code\WorkInProgress\recycling\scrap.dm : 23
+		code\WorkInProgress\UnifiedCabling\CablingCoil.dm : 13
+ON_BORDER
+	Value: 512
+	Comment: 
+	Defined in: code\setup.dm : 109
+	Number of references: 10
+		code\defines\obj\door.dm : 43
+		code\defines\obj\machinery.dm : 142
+		code\defines\obj\window.dm : 12
+		code\defines\procs\navigation.dm : 54
+		code\game\atom_procs.dm : 367
+		code\game\atom_procs.dm : 374
+		code\game\turf.dm : 33
+		code\game\turf.dm : 40
+		code\game\turf.dm : 47
+		code\game\turf.dm : 59
+GLASSESCOVERSEYES
+	Value: 1024
+	Comment: 
+	Defined in: code\setup.dm : 111
+	Number of references: 5
+		code\defines\obj\clothing.dm : 40
+		code\game\objects\items.dm : 317
+		code\game\objects\items\weapons\kitchen.dm : 45
+		code\game\objects\items\weapons\surgery_tools.dm : 25
+		code\game\objects\items\weapons\surgery_tools.dm : 116
+MASKCOVERSEYES
+	Value: 1024
+	Comment: 
+	Defined in: code\setup.dm : 112
+	Number of references: 6
+		code\Aryn\ZAS Plasma.dm : 133
+		code\defines\obj\clothing.dm : 326
+		code\game\objects\items.dm : 317
+		code\game\objects\items\weapons\kitchen.dm : 45
+		code\game\objects\items\weapons\surgery_tools.dm : 25
+		code\game\objects\items\weapons\surgery_tools.dm : 116
+HEADCOVERSEYES
+	Value: 1024
+	Comment: 
+	Defined in: code\setup.dm : 113
+	Number of references: 17
+		code\defines\obj\clothing.dm : 171
+		code\defines\obj\clothing.dm : 176
+		code\defines\obj\clothing.dm : 189
+		code\defines\obj\clothing.dm : 239
+		code\defines\obj\clothing.dm : 248
+		code\defines\obj\clothing.dm : 254
+		code\defines\obj\clothing.dm : 266
+		code\defines\obj\clothing.dm : 272
+		code\defines\obj\clothing.dm : 285
+		code\defines\obj\clothing.dm : 292
+		code\defines\obj\clothing.dm : 302
+		code\defines\obj\clothing.dm : 307
+		code\defines\obj\clothing.dm : 312
+		code\game\objects\items.dm : 317
+		code\game\objects\items\weapons\kitchen.dm : 45
+		code\game\objects\items\weapons\surgery_tools.dm : 25
+		code\game\objects\items\weapons\surgery_tools.dm : 116
+MASKCOVERSMOUTH
+	Value: 2048
+	Comment: 
+	Defined in: code\setup.dm : 114
+	Number of references: 6
+		code\defines\obj\clothing.dm : 326
+		code\defines\obj\clothing.dm : 359
+		code\defines\obj\clothing.dm : 371
+		code\defines\obj\clothing.dm : 389
+		code\defines\obj\clothing.dm : 398
+		code\defines\obj\clothing.dm : 407
+HEADCOVERSMOUTH
+	Value: 2048
+	Comment: 
+	Defined in: code\setup.dm : 115
+	Number of references: 4
+		code\defines\obj\clothing.dm : 171
+		code\defines\obj\clothing.dm : 176
+		code\defines\obj\clothing.dm : 248
+		code\defines\obj\clothing.dm : 254
+PLASMAGUARD
+	Value: 4096
+	Comment: 
+	Defined in: code\setup.dm : 117
+	Number of references: 22
+		code\Aryn\Variable Settings.dm : 120
+		code\Aryn\Variable Settings.dm : 145
+		code\Aryn\Variable Settings.dm : 177
+		code\Aryn\Variable Settings.dm : 207
+		code\Aryn\ZAS Plasma.dm : 17
+		code\Aryn\ZAS Plasma.dm : 18
+		code\Aryn\ZAS Plasma.dm : 19
+		code\Aryn\ZAS Plasma.dm : 20
+		code\Aryn\ZAS Plasma.dm : 74
+		code\Aryn\ZAS Plasma.dm : 75
+		code\Aryn\ZAS Plasma.dm : 83
+		code\Aryn\ZAS Plasma.dm : 84
+		code\Aryn\ZAS Plasma.dm : 91
+		code\Aryn\ZAS Plasma.dm : 92
+		code\Aryn\ZAS Plasma.dm : 208
+		code\Aryn\ZAS Plasma.dm : 213
+		code\defines\obj\clothing.dm : 171
+		code\defines\obj\clothing.dm : 176
+		code\defines\obj\clothing.dm : 254
+		code\defines\obj\clothing.dm : 511
+		code\defines\obj\clothing.dm : 529
+		code\defines\obj\clothing.dm : 708
+OPENCONTAINER
+	Value: 4096
+	Comment: 
+	Defined in: code\setup.dm : 119
+	Number of references: 12
+		code\defines\atom.dm : 41
+		code\defines\obj.dm : 601
+		code\defines\obj\weapon.dm : 202
+		code\defines\obj\weapon.dm : 816
+		code\modules\Chemistry\Chemistry-Tools.dm : 404
+		code\modules\Chemistry\Chemistry-Tools.dm : 860
+		code\modules\Chemistry\Chemistry-Tools.dm : 887
+		code\modules\Chemistry\Chemistry-Tools.dm : 906
+		code\modules\Chemistry\Chemistry-Tools.dm : 926
+		code\modules\Chemistry\Chemistry-Tools.dm : 940
+		code\WorkInProgress\food\drinks.dm : 5
+		code\WorkInProgress\food\drinks.dm : 119
+ONESIZEFITSALL
+	Value: 8192
+	Comment: 
+	Defined in: code\setup.dm : 121
+	Number of references: 5
+		code\defines\obj\clothing.dm : 599
+		code\defines\obj\clothing.dm : 607
+		code\defines\obj\clothing.dm : 615
+		code\defines\obj\clothing.dm : 627
+		code\defines\obj\clothing.dm : 729
+NOSPLASH
+	Value: 16384
+	Comment: 
+	Defined in: code\setup.dm : 123
+	Number of references: 17
+		code\defines\obj.dm : 582
+		code\defines\obj\closet.dm : 11
+		code\defines\obj\closet.dm : 228
+		code\defines\obj\storage.dm : 7
+		code\defines\obj\storage.dm : 14
+		code\defines\obj\storage.dm : 21
+		code\defines\obj\storage.dm : 28
+		code\defines\obj\storage.dm : 35
+		code\game\disease\dishincubator.dm : 15
+		code\game\machinery\cryo.dm : 7
+		code\game\machinery\bots\medbot.dm : 14
+		code\game\objects\storage\belts.dm : 1
+		code\modules\Chemistry\Chemistry-Machinery.dm : 130
+		code\modules\Chemistry\Chemistry-Tools.dm : 20
+		code\modules\Chemistry\Chemistry-Tools.dm : 466
+		code\WorkInProgress\ISaidNo Release\hydroponics.dm : 444
+		code\WorkInProgress\recycling\disposal.dm : 41
+HEAD
+	Value: 1
+	Comment: 
+	Defined in: code\setup.dm : 127
+	Number of references: 88
+		code\Aryn\Variable Settings.dm : 6
+		code\Aryn\Variable Settings.dm : 7
+		code\Aryn\ZAS Plasma.dm : 164
+		code\Aryn\ZAS Plasma.dm : 208
+		code\defines\global.dm : 29
+		code\defines\obj\clothing.dm : 164
+		code\defines\obj\clothing.dm : 171
+		code\defines\obj\clothing.dm : 176
+		code\defines\obj\clothing.dm : 181
+		code\defines\obj\clothing.dm : 189
+		code\defines\obj\clothing.dm : 239
+		code\defines\obj\clothing.dm : 248
+		code\defines\obj\clothing.dm : 254
+		code\defines\obj\clothing.dm : 266
+		code\defines\obj\clothing.dm : 272
+		code\defines\obj\clothing.dm : 285
+		code\defines\obj\clothing.dm : 292
+		code\defines\obj\clothing.dm : 302
+		code\defines\obj\clothing.dm : 307
+		code\defines\obj\clothing.dm : 312
+		code\defines\obj\clothing.dm : 320
+		code\defines\obj\weapon.dm : 625
+		code\game\dna.dm : 369
+		code\game\vote.dm : 175
+		code\game\gamemodes\newobjective.dm : 270
+		code\game\gamemodes\newobjective.dm : 274
+		code\game\gamemodes\setupgame.dm : 65
+		code\game\gamemodes\restructuring\restructuring.dm : 11
+		code\game\gamemodes\restructuring\restructuring.dm : 33
+		code\game\gamemodes\restructuring\restructuring.dm : 54
+		code\game\gamemodes\restructuring\restructuring.dm : 58
+		code\game\gamemodes\restructuring\restructuring.dm : 64
+		code\game\machinery\alarm.dm : 511
+		code\game\machinery\alarm.dm : 534
+		code\game\machinery\alarm.dm : 671
+		code\game\machinery\alarm.dm : 686
+		code\game\machinery\autolathe.dm : 93
+		code\game\machinery\autolathe.dm : 109
+		code\game\machinery\camera.dm : 275
+		code\game\machinery\camera.dm : 281
+		code\game\machinery\microwave.dm : 303
+		code\game\machinery\robot_fabricator.dm : 71
+		code\game\machinery\spaceheater.dm : 97
+		code\game\machinery\bots\cleanbot.dm : 64
+		code\game\machinery\bots\floorbot.dm : 70
+		code\game\machinery\bots\medbot.dm : 125
+		code\game\machinery\bots\mulebot.dm : 250
+		code\game\machinery\bots\secbot.dm : 140
+		code\game\machinery\computer\atmos.dm : 56
+		code\game\machinery\computer\medical.dm : 125
+		code\game\machinery\computer\Operating.dm : 29
+		code\game\machinery\computer\security.dm : 86
+		code\game\objects\items.dm : 317
+		code\game\objects\noticeboard.dm : 20
+		code\game\objects\noticeboard.dm : 61
+		code\game\objects\noticeboard.dm : 64
+		code\game\objects\devices\geneanalyser.dm : 12
+		code\game\objects\items\weapons\cards_ids.dm : 88
+		code\game\objects\items\weapons\cards_ids.dm : 91
+		code\game\objects\items\weapons\cards_ids.dm : 164
+		code\game\objects\items\weapons\kitchen.dm : 45
+		code\game\objects\items\weapons\metals_rods.dm : 142
+		code\game\objects\items\weapons\metals_rods.dm : 336
+		code\game\objects\items\weapons\papers_bins.dm : 31
+		code\game\objects\items\weapons\papers_bins.dm : 42
+		code\game\objects\items\weapons\papers_bins.dm : 60
+		code\game\objects\items\weapons\papers_bins.dm : 63
+		code\game\objects\items\weapons\papers_bins.dm : 535
+		code\game\objects\items\weapons\papers_bins.dm : 538
+		code\game\objects\items\weapons\surgery_tools.dm : 25
+		code\game\objects\items\weapons\surgery_tools.dm : 116
+		code\modules\mob\mob.dm : 583
+		code\modules\mob\living\carbon\life.dm : 201
+		code\modules\mob\living\carbon\life.dm : 203
+		code\modules\mob\living\carbon\life.dm : 205
+		code\modules\mob\living\carbon\life.dm : 208
+		code\modules\mob\living\carbon\life.dm : 639
+		code\modules\mob\living\carbon\life.dm : 683
+		code\modules\mob\living\carbon\life.dm : 699
+		code\modules\mob\living\silicon\ai\ai.dm : 33
+		code\modules\mob\living\silicon\robot\robot.dm : 95
+		code\modules\mob\living\silicon\robot\robot.dm : 533
+		code\modules\mob\new_player\preferences.dm : 806
+		code\WorkInProgress\bureaucracy\copier.dm : 55
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 588
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1418
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1635
+		code\WorkInProgress\NewMobs and etc\newitem.dm : 206
+UPPER_TORSO
+	Value: 2
+	Comment: 
+	Defined in: code\setup.dm : 128
+	Number of references: 34
+		code\Aryn\ZAS Plasma.dm : 166
+		code\defines\obj\clothing.dm : 512
+		code\defines\obj\clothing.dm : 524
+		code\defines\obj\clothing.dm : 536
+		code\defines\obj\clothing.dm : 543
+		code\defines\obj\clothing.dm : 550
+		code\defines\obj\clothing.dm : 559
+		code\defines\obj\clothing.dm : 566
+		code\defines\obj\clothing.dm : 573
+		code\defines\obj\clothing.dm : 579
+		code\defines\obj\clothing.dm : 589
+		code\defines\obj\clothing.dm : 598
+		code\defines\obj\clothing.dm : 606
+		code\defines\obj\clothing.dm : 614
+		code\defines\obj\clothing.dm : 628
+		code\defines\obj\clothing.dm : 634
+		code\defines\obj\clothing.dm : 641
+		code\defines\obj\clothing.dm : 649
+		code\defines\obj\clothing.dm : 652
+		code\defines\obj\clothing.dm : 668
+		code\defines\obj\clothing.dm : 675
+		code\defines\obj\clothing.dm : 686
+		code\defines\obj\clothing.dm : 709
+		code\defines\obj\clothing.dm : 725
+		code\modules\mob\living\carbon\life.dm : 211
+		code\modules\mob\living\carbon\life.dm : 213
+		code\modules\mob\living\carbon\life.dm : 216
+		code\modules\mob\living\carbon\life.dm : 641
+		code\modules\mob\living\carbon\life.dm : 685
+		code\modules\mob\living\carbon\life.dm : 687
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 601
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1432
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1649
+		code\WorkInProgress\NewMobs and etc\newitem.dm : 256
+LOWER_TORSO
+	Value: 4
+	Comment: 
+	Defined in: code\setup.dm : 129
+	Number of references: 33
+		code\Aryn\ZAS Plasma.dm : 168
+		code\defines\obj\clothing.dm : 512
+		code\defines\obj\clothing.dm : 524
+		code\defines\obj\clothing.dm : 536
+		code\defines\obj\clothing.dm : 543
+		code\defines\obj\clothing.dm : 550
+		code\defines\obj\clothing.dm : 559
+		code\defines\obj\clothing.dm : 566
+		code\defines\obj\clothing.dm : 573
+		code\defines\obj\clothing.dm : 579
+		code\defines\obj\clothing.dm : 589
+		code\defines\obj\clothing.dm : 598
+		code\defines\obj\clothing.dm : 606
+		code\defines\obj\clothing.dm : 614
+		code\defines\obj\clothing.dm : 634
+		code\defines\obj\clothing.dm : 641
+		code\defines\obj\clothing.dm : 649
+		code\defines\obj\clothing.dm : 652
+		code\defines\obj\clothing.dm : 668
+		code\defines\obj\clothing.dm : 675
+		code\defines\obj\clothing.dm : 686
+		code\defines\obj\clothing.dm : 709
+		code\defines\obj\clothing.dm : 725
+		code\modules\mob\living\carbon\life.dm : 219
+		code\modules\mob\living\carbon\life.dm : 221
+		code\modules\mob\living\carbon\life.dm : 224
+		code\modules\mob\living\carbon\life.dm : 643
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 618
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1432
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1451
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1649
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1668
+		code\WorkInProgress\NewMobs and etc\newitem.dm : 298
+LEGS
+	Value: 8
+	Comment: 
+	Defined in: code\setup.dm : 130
+	Number of references: 21
+		code\Aryn\ZAS Plasma.dm : 170
+		code\defines\obj\clothing.dm : 512
+		code\defines\obj\clothing.dm : 524
+		code\defines\obj\clothing.dm : 536
+		code\defines\obj\clothing.dm : 543
+		code\defines\obj\clothing.dm : 573
+		code\defines\obj\clothing.dm : 589
+		code\defines\obj\clothing.dm : 634
+		code\defines\obj\clothing.dm : 641
+		code\defines\obj\clothing.dm : 649
+		code\defines\obj\clothing.dm : 652
+		code\defines\obj\clothing.dm : 668
+		code\defines\obj\clothing.dm : 675
+		code\defines\obj\clothing.dm : 686
+		code\defines\obj\clothing.dm : 709
+		code\defines\obj\clothing.dm : 725
+		code\modules\mob\living\carbon\life.dm : 227
+		code\modules\mob\living\carbon\life.dm : 229
+		code\modules\mob\living\carbon\life.dm : 232
+		code\modules\mob\living\carbon\life.dm : 645
+		code\modules\mob\living\carbon\life.dm : 689
+FEET
+	Value: 16
+	Comment: 
+	Defined in: code\setup.dm : 131
+	Number of references: 17
+		code\Aryn\ZAS Plasma.dm : 172
+		code\defines\obj\clothing.dm : 429
+		code\defines\obj\clothing.dm : 512
+		code\defines\obj\clothing.dm : 524
+		code\defines\obj\clothing.dm : 573
+		code\defines\obj\clothing.dm : 634
+		code\defines\obj\clothing.dm : 641
+		code\defines\obj\clothing.dm : 649
+		code\defines\obj\clothing.dm : 652
+		code\defines\obj\clothing.dm : 668
+		code\defines\obj\clothing.dm : 686
+		code\defines\obj\clothing.dm : 709
+		code\modules\mob\living\carbon\life.dm : 251
+		code\modules\mob\living\carbon\life.dm : 253
+		code\modules\mob\living\carbon\life.dm : 256
+		code\modules\mob\living\carbon\life.dm : 651
+		code\modules\mob\living\carbon\life.dm : 695
+ARMS
+	Value: 32
+	Comment: 
+	Defined in: code\setup.dm : 132
+	Number of references: 24
+		code\Aryn\ZAS Plasma.dm : 174
+		code\defines\obj\clothing.dm : 512
+		code\defines\obj\clothing.dm : 524
+		code\defines\obj\clothing.dm : 536
+		code\defines\obj\clothing.dm : 543
+		code\defines\obj\clothing.dm : 550
+		code\defines\obj\clothing.dm : 559
+		code\defines\obj\clothing.dm : 573
+		code\defines\obj\clothing.dm : 579
+		code\defines\obj\clothing.dm : 589
+		code\defines\obj\clothing.dm : 634
+		code\defines\obj\clothing.dm : 641
+		code\defines\obj\clothing.dm : 649
+		code\defines\obj\clothing.dm : 652
+		code\defines\obj\clothing.dm : 668
+		code\defines\obj\clothing.dm : 675
+		code\defines\obj\clothing.dm : 686
+		code\defines\obj\clothing.dm : 709
+		code\defines\obj\clothing.dm : 725
+		code\modules\mob\living\carbon\life.dm : 235
+		code\modules\mob\living\carbon\life.dm : 237
+		code\modules\mob\living\carbon\life.dm : 240
+		code\modules\mob\living\carbon\life.dm : 648
+		code\modules\mob\living\carbon\life.dm : 691
+HANDS
+	Value: 64
+	Comment: 
+	Defined in: code\setup.dm : 133
+	Number of references: 17
+		code\Aryn\ZAS Plasma.dm : 176
+		code\defines\obj\clothing.dm : 82
+		code\defines\obj\clothing.dm : 512
+		code\defines\obj\clothing.dm : 524
+		code\defines\obj\clothing.dm : 573
+		code\defines\obj\clothing.dm : 634
+		code\defines\obj\clothing.dm : 641
+		code\defines\obj\clothing.dm : 649
+		code\defines\obj\clothing.dm : 652
+		code\defines\obj\clothing.dm : 668
+		code\defines\obj\clothing.dm : 686
+		code\defines\obj\clothing.dm : 709
+		code\modules\mob\living\carbon\life.dm : 243
+		code\modules\mob\living\carbon\life.dm : 245
+		code\modules\mob\living\carbon\life.dm : 248
+		code\modules\mob\living\carbon\life.dm : 654
+		code\modules\mob\living\carbon\life.dm : 693
+EQUIP
+	Value: 1
+	Comment: 
+	Defined in: code\setup.dm : 137
+	Number of references: 11
+		code\game\chemistry.dm : 374
+		code\game\area\areas.dm : 438
+		code\game\area\areas.dm : 464
+		code\game\area\areas.dm : 482
+		code\game\disease\dishincubator.dm : 136
+		code\game\disease\dishincubator.dm : 137
+		code\game\objects\stool.dm : 202
+		code\game\objects\stool.dm : 204
+		code\modules\power\apc.dm : 851
+		code\modules\power\MachineProcs.dm : 3
+		code\modules\power\MachineProcs.dm : 12
+LIGHT
+	Value: 2
+	Comment: 
+	Defined in: code\setup.dm : 138
+	Number of references: 62
+		code\defines\global.dm : 194
+		code\defines\global.dm : 195
+		code\defines\procs\helpers.dm : 677
+		code\defines\procs\helpers.dm : 681
+		code\game\area\areas.dm : 440
+		code\game\area\areas.dm : 462
+		code\game\area\areas.dm : 484
+		code\game\events\Events\ElectricalStorm.dm : 46
+		code\game\machinery\lightswitch.dm : 55
+		code\game\machinery\doors\airlock.dm : 11
+		code\game\machinery\doors\airlock.dm : 331
+		code\game\machinery\doors\airlock.dm : 616
+		code\game\machinery\doors\airlock.dm : 716
+		code\game\objects\devices\flashlight.dm : 0
+		code\game\objects\devices\flashlight.dm : 7
+		code\game\objects\devices\flashlight.dm : 9
+		code\game\objects\devices\flashlight.dm : 15
+		code\game\objects\devices\flashlight.dm : 21
+		code\game\objects\devices\flashlight.dm : 22
+		code\game\objects\devices\flashlight.dm : 30
+		code\game\objects\devices\flashlight.dm : 32
+		code\game\objects\devices\flashlight.dm : 37
+		code\game\objects\devices\flashlight.dm : 43
+		code\game\objects\devices\flashlight.dm : 44
+		code\modules\power\apc.dm : 850
+		code\modules\power\lighting.dm : 6
+		code\modules\power\lighting.dm : 7
+		code\modules\power\lighting.dm : 8
+		code\modules\power\lighting.dm : 9
+		code\modules\power\lighting.dm : 23
+		code\modules\power\lighting.dm : 75
+		code\modules\power\lighting.dm : 111
+		code\modules\power\lighting.dm : 125
+		code\modules\power\lighting.dm : 127
+		code\modules\power\lighting.dm : 130
+		code\modules\power\lighting.dm : 133
+		code\modules\power\lighting.dm : 149
+		code\modules\power\lighting.dm : 153
+		code\modules\power\lighting.dm : 163
+		code\modules\power\lighting.dm : 171
+		code\modules\power\lighting.dm : 173
+		code\modules\power\lighting.dm : 175
+		code\modules\power\lighting.dm : 177
+		code\modules\power\lighting.dm : 189
+		code\modules\power\lighting.dm : 231
+		code\modules\power\lighting.dm : 255
+		code\modules\power\lighting.dm : 275
+		code\modules\power\lighting.dm : 300
+		code\modules\power\lighting.dm : 350
+		code\modules\power\lighting.dm : 357
+		code\modules\power\lighting.dm : 360
+		code\modules\power\lighting.dm : 366
+		code\modules\power\lighting.dm : 395
+		code\modules\power\lighting.dm : 400
+		code\modules\power\lighting.dm : 460
+		code\modules\power\lighting.dm : 521
+		code\modules\power\lighting.dm : 524
+		code\modules\power\lighting.dm : 527
+		code\modules\power\lighting.dm : 564
+		code\modules\power\lighting.dm : 566
+		code\modules\power\UltraLight.dm : 5
+		code\modules\power\UltraLight.dm : 8
+ENVIRON
+	Value: 3
+	Comment: 
+	Defined in: code\setup.dm : 139
+	Number of references: 9
+		code\game\area\areas.dm : 442
+		code\game\area\areas.dm : 466
+		code\game\area\areas.dm : 486
+		code\game\machinery\alarm.dm : 50
+		code\game\machinery\alarm.dm : 131
+		code\game\machinery\alarm.dm : 469
+		code\game\machinery\alarm.dm : 482
+		code\game\machinery\doors\firedoor.dm : 4
+		code\modules\power\apc.dm : 852
+TOTAL
+	Value: 4
+	Comment: 
+	Defined in: code\setup.dm : 140
+	Number of references: 1
+		code\game\area\areas.dm : 468
+BROKEN
+	Value: 1
+	Comment: 
+	Defined in: code\setup.dm : 143
+	Number of references: 225
+		code\Aryn\NewPipes.dm : 743
+		code\Aryn\NewPipes.dm : 756
+		code\Aryn\NewPipes.dm : 1049
+		code\Aryn\NewPipes.dm : 1109
+		code\ATMOSPHERICS\components\binary_devices\circulator.dm : 53
+		code\game\dna.dm : 707
+		code\game\dna.dm : 733
+		code\game\disease\analyser.dm : 33
+		code\game\disease\curer.dm : 16
+		code\game\disease\curer.dm : 87
+		code\game\disease\diseasesplicer.dm : 21
+		code\game\disease\diseasesplicer.dm : 120
+		code\game\disease\dishincubator.dm : 68
+		code\game\disease\dishincubator.dm : 100
+		code\game\disease\isolator.dm : 45
+		code\game\disease\isolator.dm : 73
+		code\game\disease\monkeydispensor.dm : 16
+		code\game\gamemodes\blob\blob.dm : 70
+		code\game\gamemodes\derelict\wreak.dm : 68
+		code\game\gamemodes\malfunction\malfunction.dm : 62
+		code\game\gamemodes\revolution\revolution.dm : 58
+		code\game\gamemodes\revolution\revolution.dm : 189
+		code\game\gamemodes\revolution\rp_revolution.dm : 60
+		code\game\gamemodes\revolution\rp_revolution.dm : 131
+		code\game\gamemodes\revolution\rp_revolution.dm : 149
+		code\game\gamemodes\traitor\traitor.dm : 209
+		code\game\gamemodes\traitor\traitor.dm : 254
+		code\game\machinery\adv_med.dm : 150
+		code\game\machinery\adv_med.dm : 179
+		code\game\machinery\alarm.dm : 46
+		code\game\machinery\alarm.dm : 123
+		code\game\machinery\alarm.dm : 126
+		code\game\machinery\alarm.dm : 145
+		code\game\machinery\alarm.dm : 466
+		code\game\machinery\alarm.dm : 491
+		code\game\machinery\alarm.dm : 549
+		code\game\machinery\alarm.dm : 579
+		code\game\machinery\alarm.dm : 613
+		code\game\machinery\alarm.dm : 651
+		code\game\machinery\alarm.dm : 713
+		code\game\machinery\atmo_control.dm : 101
+		code\game\machinery\atmo_control.dm : 340
+		code\game\machinery\atmo_control.dm : 533
+		code\game\machinery\camera.dm : 155
+		code\game\machinery\cell_charger.dm : 1
+		code\game\machinery\cell_charger.dm : 19
+		code\game\machinery\cell_charger.dm : 36
+		code\game\machinery\cell_charger.dm : 59
+		code\game\machinery\cryo.dm : 243
+		code\game\machinery\cryo2.dm : 236
+		code\game\machinery\dispenser.dm : 52
+		code\game\machinery\dispenser.dm : 61
+		code\game\machinery\door_control.dm : 26
+		code\game\machinery\door_control.dm : 79
+		code\game\machinery\door_control.dm : 131
+		code\game\machinery\igniter.dm : 115
+		code\game\machinery\robot_fabricator.dm : 38
+		code\game\machinery\Sleeper.dm : 85
+		code\game\machinery\teleporter.dm : 15
+		code\game\machinery\teleporter.dm : 57
+		code\game\machinery\teleporter.dm : 151
+		code\game\machinery\teleporter.dm : 166
+		code\game\machinery\teleporter.dm : 182
+		code\game\machinery\turrets.dm : 69
+		code\game\machinery\turrets.dm : 92
+		code\game\machinery\turrets.dm : 209
+		code\game\machinery\turrets.dm : 258
+		code\game\machinery\vending.dm : 27
+		code\game\machinery\vending.dm : 204
+		code\game\machinery\vending.dm : 265
+		code\game\machinery\vending.dm : 345
+		code\game\machinery\vending.dm : 377
+		code\game\machinery\vending.dm : 481
+		code\game\machinery\washer.dm : 74
+		code\game\machinery\atmoalter\meter.dm : 12
+		code\game\machinery\atmoalter\meter.dm : 72
+		code\game\machinery\computer\aistatus.dm : 6
+		code\game\machinery\computer\arcade.dm : 4
+		code\game\machinery\computer\arcade.dm : 186
+		code\game\machinery\computer\atmos.dm : 12
+		code\game\machinery\computer\atmos.dm : 18
+		code\game\machinery\computer\atmos.dm : 26
+		code\game\machinery\computer\atmos.dm : 83
+		code\game\machinery\computer\atmos.dm : 105
+		code\game\machinery\computer\atmosfilter.dm : 6
+		code\game\machinery\computer\atmosfilter.dm : 13
+		code\game\machinery\computer\atmosfilter.dm : 22
+		code\game\machinery\computer\atmosfilter.dm : 99
+		code\game\machinery\computer\atmosfilter.dm : 107
+		code\game\machinery\computer\communications.dm : 221
+		code\game\machinery\computer\computer.dm : 10
+		code\game\machinery\computer\computer.dm : 39
+		code\game\machinery\computer\computer.dm : 105
+		code\game\machinery\computer\computer.dm : 123
+		code\game\machinery\computer\computer.dm : 130
+		code\game\machinery\computer\computer.dm : 140
+		code\game\machinery\computer\computer.dm : 387
+		code\game\machinery\computer\computer.dm : 466
+		code\game\machinery\computer\computer.dm : 507
+		code\game\machinery\computer\computer.dm : 649
+		code\game\machinery\computer\medical.dm : 12
+		code\game\machinery\computer\Operating.dm : 10
+		code\game\machinery\computer\Operating.dm : 16
+		code\game\machinery\computer\Operating.dm : 22
+		code\game\machinery\computer\Operating.dm : 67
+		code\game\machinery\computer\Operating.dm : 75
+		code\game\machinery\computer\power.dm : 6
+		code\game\machinery\computer\power.dm : 13
+		code\game\machinery\computer\power.dm : 20
+		code\game\machinery\computer\power.dm : 75
+		code\game\machinery\computer\power.dm : 83
+		code\game\machinery\computer\robot.dm : 19
+		code\game\machinery\computer\robot.dm : 101
+		code\game\machinery\computer\security.dm : 12
+		code\game\machinery\computer\shuttle.dm : 1
+		code\game\machinery\doors\brigdoors.dm : 9
+		code\game\machinery\doors\brigdoors.dm : 125
+		code\game\machinery\doors\brigdoors.dm : 211
+		code\game\objects\items\weapons\AI_modules.dm : 36
+		code\modules\admin\verbs\randomverbs.dm : 292
+		code\modules\Chemistry\Chemistry-Machinery.dm : 44
+		code\modules\Chemistry\Chemistry-Machinery.dm : 83
+		code\modules\Chemistry\Chemistry-Machinery.dm : 174
+		code\modules\Chemistry\Chemistry-Machinery.dm : 249
+		code\modules\mob\living\silicon\ai\life.dm : 126
+		code\modules\mob\living\silicon\ai\life.dm : 143
+		code\modules\mob\living\silicon\ai\life.dm : 160
+		code\modules\mob\living\silicon\ai\life.dm : 177
+		code\modules\power\apc.dm : 83
+		code\modules\power\apc.dm : 93
+		code\modules\power\apc.dm : 141
+		code\modules\power\apc.dm : 151
+		code\modules\power\apc.dm : 279
+		code\modules\power\apc.dm : 311
+		code\modules\power\apc.dm : 397
+		code\modules\power\apc.dm : 589
+		code\modules\power\apc.dm : 834
+		code\modules\power\apc.dm : 1033
+		code\modules\power\generator.dm : 16
+		code\modules\power\generator.dm : 22
+		code\modules\power\generator.dm : 81
+		code\modules\power\generator.dm : 89
+		code\modules\power\generator_type2.dm : 7
+		code\modules\power\generator_type2.dm : 13
+		code\modules\power\generator_type2.dm : 74
+		code\modules\power\generator_type2.dm : 82
+		code\modules\power\generator_type3.dm : 7
+		code\modules\power\generator_type3.dm : 13
+		code\modules\power\generator_type3.dm : 68
+		code\modules\power\generator_type3.dm : 76
+		code\modules\power\lighting.dm : 8
+		code\modules\power\lighting.dm : 75
+		code\modules\power\lighting.dm : 111
+		code\modules\power\lighting.dm : 133
+		code\modules\power\lighting.dm : 177
+		code\modules\power\lighting.dm : 189
+		code\modules\power\lighting.dm : 255
+		code\modules\power\lighting.dm : 366
+		code\modules\power\lighting.dm : 527
+		code\modules\power\lighting.dm : 566
+		code\modules\power\smes.dm : 16
+		code\modules\power\smes.dm : 27
+		code\modules\power\smes.dm : 51
+		code\modules\power\smes.dm : 112
+		code\modules\power\smes.dm : 148
+		code\modules\power\smes.dm : 156
+		code\modules\power\solar.dm : 28
+		code\modules\power\solar.dm : 39
+		code\modules\power\solar.dm : 62
+		code\modules\power\solar.dm : 83
+		code\modules\power\solar.dm : 88
+		code\modules\power\solar.dm : 130
+		code\modules\power\solar.dm : 148
+		code\modules\power\solar.dm : 155
+		code\modules\power\solar.dm : 163
+		code\modules\power\solar.dm : 179
+		code\modules\power\solar.dm : 188
+		code\modules\power\solar.dm : 275
+		code\modules\power\turbine.dm : 51
+		code\modules\power\turbine.dm : 61
+		code\modules\power\turbine.dm : 64
+		code\modules\power\turbine.dm : 105
+		code\modules\power\turbine.dm : 116
+		code\modules\power\turbine.dm : 119
+		code\modules\power\turbine.dm : 147
+		code\modules\power\turbine.dm : 156
+		code\modules\power\turbine.dm : 163
+		code\modules\power\turbine.dm : 188
+		code\modules\power\turbine.dm : 243
+		code\WorkInProgress\cloning.dm : 81
+		code\WorkInProgress\cloning.dm : 110
+		code\WorkInProgress\cloning.dm : 360
+		code\WorkInProgress\Alfie275\anomalyanalyser.dm : 20
+		code\WorkInProgress\Alfie275\anomalyanalyser.dm : 114
+		code\WorkInProgress\Alfie275\anomalyharvester.dm : 16
+		code\WorkInProgress\Alfie275\anomalyharvester.dm : 114
+		code\WorkInProgress\Alfie275\vend.dm : 98
+		code\WorkInProgress\Alfie275\vend.dm : 131
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 56
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 58
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 70
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 82
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 211
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 568
+		code\WorkInProgress\recycling\conveyor.dm : 44
+		code\WorkInProgress\recycling\conveyor.dm : 56
+		code\WorkInProgress\recycling\conveyor.dm : 155
+		code\WorkInProgress\recycling\conveyor.dm : 276
+		code\WorkInProgress\recycling\disposal.dm : 5
+		code\WorkInProgress\recycling\disposal.dm : 89
+		code\WorkInProgress\recycling\disposal.dm : 170
+		code\WorkInProgress\recycling\disposal.dm : 188
+		code\WorkInProgress\recycling\disposal.dm : 223
+		code\WorkInProgress\recycling\disposal.dm : 265
+		code\WorkInProgress\recycling\disposal.dm : 292
+		code\WorkInProgress\ShieldGenerator\Generator.dm : 36
+		code\WorkInProgress\ShieldGenerator\Generator.dm : 156
+		code\WorkInProgress\ShieldGenerator\Generator.dm : 159
+		code\WorkInProgress\ShieldGenerator\ShieldCapacitor.dm : 22
+		code\WorkInProgress\ShieldGenerator\ShieldCapacitor.dm : 44
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 26
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 33
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 40
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 111
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 119
+NOPOWER
+	Value: 2
+	Comment: 
+	Defined in: code\setup.dm : 144
+	Number of references: 199
+		code\Aryn\NewPipes.dm : 743
+		code\Aryn\NewPipes.dm : 756
+		code\Aryn\NewPipes.dm : 1049
+		code\Aryn\NewPipes.dm : 1109
+		code\ATMOSPHERICS\components\binary_devices\circulator.dm : 53
+		code\game\dna.dm : 711
+		code\game\dna.dm : 715
+		code\game\dna.dm : 733
+		code\game\area\areas.dm : 203
+		code\game\area\areas.dm : 273
+		code\game\area\areas.dm : 290
+		code\game\area\areas.dm : 308
+		code\game\area\areas.dm : 325
+		code\game\area\areas.dm : 341
+		code\game\disease\analyser.dm : 33
+		code\game\disease\curer.dm : 87
+		code\game\disease\diseasesplicer.dm : 120
+		code\game\disease\monkeydispensor.dm : 16
+		code\game\gamemodes\blob\blob.dm : 70
+		code\game\gamemodes\malfunction\malfunction.dm : 62
+		code\game\gamemodes\revolution\revolution.dm : 58
+		code\game\gamemodes\revolution\revolution.dm : 189
+		code\game\gamemodes\revolution\rp_revolution.dm : 60
+		code\game\gamemodes\revolution\rp_revolution.dm : 131
+		code\game\gamemodes\revolution\rp_revolution.dm : 149
+		code\game\gamemodes\traitor\traitor.dm : 209
+		code\game\gamemodes\traitor\traitor.dm : 254
+		code\game\machinery\adv_med.dm : 154
+		code\game\machinery\adv_med.dm : 158
+		code\game\machinery\adv_med.dm : 179
+		code\game\machinery\alarm.dm : 46
+		code\game\machinery\alarm.dm : 132
+		code\game\machinery\alarm.dm : 134
+		code\game\machinery\alarm.dm : 145
+		code\game\machinery\alarm.dm : 328
+		code\game\machinery\alarm.dm : 398
+		code\game\machinery\alarm.dm : 466
+		code\game\machinery\alarm.dm : 483
+		code\game\machinery\alarm.dm : 487
+		code\game\machinery\alarm.dm : 491
+		code\game\machinery\alarm.dm : 549
+		code\game\machinery\alarm.dm : 579
+		code\game\machinery\alarm.dm : 613
+		code\game\machinery\alarm.dm : 651
+		code\game\machinery\alarm.dm : 713
+		code\game\machinery\atmo_control.dm : 533
+		code\game\machinery\camera.dm : 155
+		code\game\machinery\cell_charger.dm : 19
+		code\game\machinery\cell_charger.dm : 59
+		code\game\machinery\cryo.dm : 243
+		code\game\machinery\cryo2.dm : 236
+		code\game\machinery\cyborgcharger.dm : 50
+		code\game\machinery\cyborgcharger.dm : 53
+		code\game\machinery\door_control.dm : 26
+		code\game\machinery\door_control.dm : 52
+		code\game\machinery\door_control.dm : 79
+		code\game\machinery\door_control.dm : 131
+		code\game\machinery\flasher.dm : 31
+		code\game\machinery\flasher.dm : 35
+		code\game\machinery\igniter.dm : 19
+		code\game\machinery\igniter.dm : 30
+		code\game\machinery\igniter.dm : 53
+		code\game\machinery\igniter.dm : 57
+		code\game\machinery\igniter.dm : 115
+		code\game\machinery\lightswitch.dm : 21
+		code\game\machinery\lightswitch.dm : 56
+		code\game\machinery\lightswitch.dm : 58
+		code\game\machinery\recharger.dm : 66
+		code\game\machinery\recharger.dm : 73
+		code\game\machinery\recharger.dm : 80
+		code\game\machinery\recharger.dm : 88
+		code\game\machinery\recharger.dm : 96
+		code\game\machinery\robot_fabricator.dm : 33
+		code\game\machinery\robot_fabricator.dm : 35
+		code\game\machinery\robot_fabricator.dm : 38
+		code\game\machinery\Sleeper.dm : 85
+		code\game\machinery\status_display.dm : 105
+		code\game\machinery\status_display.dm : 330
+		code\game\machinery\teleporter.dm : 15
+		code\game\machinery\teleporter.dm : 57
+		code\game\machinery\teleporter.dm : 151
+		code\game\machinery\teleporter.dm : 166
+		code\game\machinery\teleporter.dm : 182
+		code\game\machinery\teleporter.dm : 202
+		code\game\machinery\turrets.dm : 80
+		code\game\machinery\turrets.dm : 84
+		code\game\machinery\turrets.dm : 92
+		code\game\machinery\vending.dm : 204
+		code\game\machinery\vending.dm : 265
+		code\game\machinery\vending.dm : 345
+		code\game\machinery\vending.dm : 366
+		code\game\machinery\vending.dm : 382
+		code\game\machinery\vending.dm : 386
+		code\game\machinery\vending.dm : 481
+		code\game\machinery\washer.dm : 74
+		code\game\machinery\atmoalter\meter.dm : 12
+		code\game\machinery\atmoalter\meter.dm : 72
+		code\game\machinery\computer\aistatus.dm : 3
+		code\game\machinery\computer\arcade.dm : 191
+		code\game\machinery\computer\arcade.dm : 195
+		code\game\machinery\computer\atmos.dm : 12
+		code\game\machinery\computer\atmos.dm : 18
+		code\game\machinery\computer\atmos.dm : 83
+		code\game\machinery\computer\atmos.dm : 105
+		code\game\machinery\computer\atmosfilter.dm : 6
+		code\game\machinery\computer\atmosfilter.dm : 13
+		code\game\machinery\computer\atmosfilter.dm : 22
+		code\game\machinery\computer\atmosfilter.dm : 99
+		code\game\machinery\computer\atmosfilter.dm : 112
+		code\game\machinery\computer\atmosfilter.dm : 116
+		code\game\machinery\computer\computer.dm : 10
+		code\game\machinery\computer\computer.dm : 39
+		code\game\machinery\computer\computer.dm : 112
+		code\game\machinery\computer\computer.dm : 119
+		code\game\machinery\computer\computer.dm : 123
+		code\game\machinery\computer\computer.dm : 466
+		code\game\machinery\computer\computer.dm : 649
+		code\game\machinery\computer\Operating.dm : 10
+		code\game\machinery\computer\Operating.dm : 16
+		code\game\machinery\computer\Operating.dm : 22
+		code\game\machinery\computer\Operating.dm : 67
+		code\game\machinery\computer\Operating.dm : 80
+		code\game\machinery\computer\Operating.dm : 84
+		code\game\machinery\computer\power.dm : 6
+		code\game\machinery\computer\power.dm : 13
+		code\game\machinery\computer\power.dm : 20
+		code\game\machinery\computer\power.dm : 75
+		code\game\machinery\computer\power.dm : 89
+		code\game\machinery\computer\power.dm : 94
+		code\game\machinery\computer\robot.dm : 101
+		code\game\machinery\computer\shuttle.dm : 1
+		code\game\machinery\doors\airlock.dm : 184
+		code\game\machinery\doors\airlock.dm : 217
+		code\game\machinery\doors\airlock.dm : 273
+		code\game\machinery\doors\airlock.dm : 483
+		code\game\machinery\doors\airlock.dm : 1097
+		code\game\machinery\doors\airlock.dm : 1143
+		code\game\machinery\doors\brigdoors.dm : 9
+		code\game\machinery\doors\brigdoors.dm : 125
+		code\game\machinery\doors\brigdoors.dm : 208
+		code\game\machinery\doors\firedoor.dm : 5
+		code\game\machinery\doors\firedoor.dm : 7
+		code\game\machinery\doors\poddoor.dm : 4
+		code\game\objects\items\weapons\AI_modules.dm : 33
+		code\modules\admin\verbs\randomverbs.dm : 292
+		code\modules\power\generator.dm : 22
+		code\modules\power\generator.dm : 81
+		code\modules\power\generator.dm : 89
+		code\modules\power\generator_type2.dm : 13
+		code\modules\power\generator_type2.dm : 74
+		code\modules\power\generator_type2.dm : 82
+		code\modules\power\generator_type3.dm : 13
+		code\modules\power\generator_type3.dm : 68
+		code\modules\power\generator_type3.dm : 76
+		code\modules\power\MachineProcs.dm : 24
+		code\modules\power\MachineProcs.dm : 27
+		code\modules\power\solar.dm : 134
+		code\modules\power\solar.dm : 148
+		code\modules\power\solar.dm : 155
+		code\modules\power\solar.dm : 163
+		code\modules\power\solar.dm : 179
+		code\modules\power\solar.dm : 188
+		code\modules\power\solar.dm : 267
+		code\modules\power\solar.dm : 271
+		code\modules\power\tracker.dm : 25
+		code\modules\power\tracker.dm : 42
+		code\modules\power\tracker.dm : 44
+		code\modules\power\turbine.dm : 76
+		code\modules\power\turbine.dm : 147
+		code\modules\power\turbine.dm : 156
+		code\modules\power\turbine.dm : 163
+		code\WorkInProgress\cloning.dm : 110
+		code\WorkInProgress\cloning.dm : 365
+		code\WorkInProgress\cloning.dm : 369
+		code\WorkInProgress\cloning.dm : 438
+		code\WorkInProgress\cloning.dm : 536
+		code\WorkInProgress\Alfie275\anomalyanalyser.dm : 114
+		code\WorkInProgress\Alfie275\anomalyharvester.dm : 114
+		code\WorkInProgress\Alfie275\vend.dm : 98
+		code\WorkInProgress\Alfie275\vend.dm : 131
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 75
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 79
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 83
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 212
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 568
+		code\WorkInProgress\recycling\conveyor.dm : 50
+		code\WorkInProgress\recycling\conveyor.dm : 56
+		code\WorkInProgress\recycling\conveyor.dm : 276
+		code\WorkInProgress\recycling\disposal.dm : 276
+		code\WorkInProgress\recycling\disposal.dm : 306
+		code\WorkInProgress\ShieldGenerator\Generator.dm : 156
+		code\WorkInProgress\ShieldGenerator\Generator.dm : 190
+		code\WorkInProgress\ShieldGenerator\ShieldCapacitor.dm : 44
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 26
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 33
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 40
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 111
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 124
+		code\WorkInProgress\ZeroPoint\LaserComputer.dm : 128
+POWEROFF
+	Value: 4
+	Comment: 
+	Defined in: code\setup.dm : 145
+	Number of references: 0
+MAINT
+	Value: 8
+	Comment: 
+	Defined in: code\setup.dm : 146
+	Number of references: 0
+ENGINE_EJECT_Z
+	Value: 3
+	Comment: 
+	Defined in: code\setup.dm : 148
+	Number of references: 0
+Z_STATION
+	Value: 1
+	Comment: 
+	Defined in: code\setup.dm : 159
+	Number of references: 2
+		code\game\turf.dm : 984
+		code\game\turf.dm : 993
+Z_SPACE
+	Value: 2
+	Comment: 
+	Defined in: code\setup.dm : 160
+	Number of references: 7
+		code\game\turf.dm : 982
+		code\game\turf.dm : 986
+		code\game\turf.dm : 995
+		code\game\machinery\teleporter.dm : 93
+		code\game\objects\portals.dm : 47
+		code\game\objects\projectiles.dm : 152
+		code\game\objects\items\weapons\guns_ammo.dm : 707
+mSmallsize
+	Value: 32768
+	Comment: 
+	Defined in: code\setup.dm : 162
+	Number of references: 3
+		code\game\dna.dm : 361
+		code\game\objects\tables_racks.dm : 72
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 460
+mShock
+	Value: 16384
+	Comment: 
+	Defined in: code\setup.dm : 163
+	Number of references: 2
+		code\game\dna.dm : 356
+		code\modules\mob\mob.dm : 2114
+mFingerprints
+	Value: 8192
+	Comment: 
+	Defined in: code\setup.dm : 164
+	Number of references: 2
+		code\game\atom_procs.dm : 55
+		code\game\dna.dm : 352
+mHallucination
+	Value: 4096
+	Comment: 
+	Defined in: code\setup.dm : 165
+	Number of references: 2
+		code\game\dna.dm : 348
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 497
+mBlend
+	Value: 2048
+	Comment: 
+	Defined in: code\setup.dm : 166
+	Number of references: 1
+		code\game\dna.dm : 344
+mMorph
+	Value: 1024
+	Comment: 
+	Defined in: code\setup.dm : 167
+	Number of references: 3
+		code\game\dna.dm : 340
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 359
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 467
+mRemotetalk
+	Value: 512
+	Comment: 
+	Defined in: code\setup.dm : 168
+	Number of references: 4
+		code\game\dna.dm : 337
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 408
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 417
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 475
+mRun
+	Value: 256
+	Comment: 
+	Defined in: code\setup.dm : 169
+	Number of references: 1
+		code\game\dna.dm : 333
+mRegen
+	Value: 128
+	Comment: 
+	Defined in: code\setup.dm : 170
+	Number of references: 2
+		code\game\dna.dm : 329
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 501
+mRemote
+	Value: 64
+	Comment: 
+	Defined in: code\setup.dm : 171
+	Number of references: 7
+		code\game\dna.dm : 325
+		code\game\dna.dm : 337
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 408
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 417
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 428
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 471
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 475
+mNobreath
+	Value: 32
+	Comment: 
+	Defined in: code\setup.dm : 172
+	Number of references: 2
+		code\game\dna.dm : 321
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 629
+TABBED_PM
+	Value: 1
+	Comment: 
+	Defined in: code\setup.dm : 174
+	Number of references: 5
+		code\modules\mob\mob.dm : 1653
+		code\modules\mob\mob.dm : 1661
+		code\modules\mob\mob.dm : 1666
+		code\modules\mob\mob.dm : 1670
+		code\modules\mob\mob.dm : 1680
+KSA_ICON_SIZE
+	Value: 32
+	Comment: 
+	Defined in: code\TakePicture.dm : 0
+	Number of references: 4
+		code\TakePicture.dm : 3
+		code\TakePicture.dm : 99
+		code\TakePicture.dm : 120
+		code\TakePicture.dm : 123
+KSA_MAX_ICON_DIMENSION
+	Value: 1024
+	Comment: 
+	Defined in: code\TakePicture.dm : 1
+	Number of references: 5
+		code\TakePicture.dm : 3
+		code\TakePicture.dm : 71
+		code\TakePicture.dm : 87
+		code\TakePicture.dm : 88
+		code\TakePicture.dm : 127
+KSA_TILES_PER_IMAGE
+	Value: (KSA_MAX_ICON_DIMENSION / KSA_ICON_SIZE)
+	Comment: 
+	Defined in: code\TakePicture.dm : 3
+	Number of references: 9
+		code\TakePicture.dm : 40
+		code\TakePicture.dm : 41
+		code\TakePicture.dm : 95
+		code\TakePicture.dm : 96
+		code\TakePicture.dm : 99
+		code\TakePicture.dm : 101
+		code\TakePicture.dm : 102
+		code\TakePicture.dm : 120
+		code\TakePicture.dm : 123
+KSA_TERMINALERR
+	Value: 5
+	Comment: 
+	Defined in: code\TakePicture.dm : 5
+	Number of references: 1
+		code\TakePicture.dm : 93
+KSA_INPROGRESS
+	Value: 2
+	Comment: 
+	Defined in: code\TakePicture.dm : 6
+	Number of references: 3
+		code\TakePicture.dm : 58
+		code\TakePicture.dm : 64
+		code\TakePicture.dm : 67
+KSA_BADOUTPUT
+	Value: 2
+	Comment: 
+	Defined in: code\TakePicture.dm : 7
+	Number of references: 3
+		code\TakePicture.dm : 58
+		code\TakePicture.dm : 70
+		code\TakePicture.dm : 128
+KSA_SUCCESS
+	Value: 1
+	Comment: 
+	Defined in: code\TakePicture.dm : 8
+	Number of references: 2
+		code\TakePicture.dm : 56
+		code\TakePicture.dm : 130
+KSA_WATCHDOGSUCCESS
+	Value: 4
+	Comment: 
+	Defined in: code\TakePicture.dm : 9
+	Number of references: 2
+		code\TakePicture.dm : 57
+		code\TakePicture.dm : 74
+KSA_WATCHDOGTERMINATE
+	Value: 3
+	Comment: 
+	Defined in: code\TakePicture.dm : 10
+	Number of references: 2
+		code\TakePicture.dm : 62
+		code\TakePicture.dm : 75
+tick_multiplier
+	Value: 2
+	Comment: 
+	Defined in: code\Ticklag.dm : 2
+	Number of references: 16
+		code\Aryn\Airflow.dm : 328
+		code\Aryn\Airflow.dm : 330
+		code\Aryn\Airflow.dm : 339
+		code\Aryn\Airflow.dm : 375
+		code\Aryn\Airflow.dm : 377
+		code\Aryn\Airflow.dm : 386
+		code\Aryn\Airflow.dm : 421
+		code\Aryn\NewPipes.dm : 463
+		code\ATMOSPHERICS\pipes.dm : 588
+		code\ATMOSPHERICS\components\valve.dm : 112
+		code\ATMOSPHERICS\components\binary_devices\dp_vent_pump.dm : 196
+		code\ATMOSPHERICS\components\binary_devices\pump.dm : 126
+		code\ATMOSPHERICS\components\binary_devices\volume_pump.dm : 111
+		code\ATMOSPHERICS\components\unary\outlet_injector.dm : 120
+		code\ATMOSPHERICS\components\unary\vent_pump.dm : 203
+		code\ZAS\Definition.dm : 19
+RADIATION_CAPACITY
+	Value: 30000
+	Comment: 
+	Defined in: code\Aryn\NewPipes.dm : 0
+	Number of references: 5
+		code\Aryn\NewPipes.dm : 894
+		code\Aryn\NewPipes.dm : 895
+		code\ATMOSPHERICS\components\unary\thermal_plate.dm : 0
+		code\ATMOSPHERICS\components\unary\thermal_plate.dm : 69
+		code\ATMOSPHERICS\components\unary\thermal_plate.dm : 70
+CONDUCTION_SKIP
+	Value: 0
+	Comment: 
+	Defined in: code\Aryn\NewPipes.dm : 1
+	Number of references: 2
+		code\Aryn\NewPipes.dm : 1224
+		code\Aryn\NewPipes.dm : 1226
+RADIATION_CAPACITY
+	Value: 30000
+	Comment: 
+	Defined in: code\ATMOSPHERICS\components\unary\thermal_plate.dm : 0
+	Number of references: 2
+		code\ATMOSPHERICS\components\unary\thermal_plate.dm : 69
+		code\ATMOSPHERICS\components\unary\thermal_plate.dm : 70
+SHUTTLEARRIVETIME
+	Value: 600
+	Comment: 
+	Defined in: code\datums\shuttle_controller.dm : 13
+	Number of references: 1
+		code\datums\shuttle_controller.dm : 113
+PODLAUNCHTIME
+	Value: 600
+	Comment: 
+	Defined in: code\datums\shuttle_controller.dm : 15
+	Number of references: 1
+		code\datums\shuttle_controller.dm : 221
+PODTRANSITTIME
+	Value: 150
+	Comment: 
+	Defined in: code\datums\shuttle_controller.dm : 17
+	Number of references: 2
+		code\datums\shuttle_controller.dm : 68
+		code\datums\shuttle_controller.dm : 98
+SHUTTLELEAVETIME
+	Value: 10
+	Comment: 
+	Defined in: code\datums\shuttle_controller.dm : 19
+	Number of references: 0
+SMESMAXCHARGELEVEL
+	Value: 200000
+	Comment: 
+	Defined in: code\defines\obj\machinery.dm : 445
+	Number of references: 2
+		code\modules\power\smes.dm : 235
+		code\modules\power\smes.dm : 251
+SMESMAXOUTPUT
+	Value: 200000
+	Comment: 
+	Defined in: code\defines\obj\machinery.dm : 446
+	Number of references: 2
+		code\modules\power\smes.dm : 262
+		code\modules\power\smes.dm : 278
+SPECIFIC_HEAT_TOXIN
+	Value: 200
+	Comment: 
+	Defined in: code\FEA\FEA_gas_mixture.dm : 6
+	Number of references: 3
+		code\FEA\FEA_gas_mixture.dm : 10
+		code\FEA\FEA_gas_mixture.dm : 599
+		code\FEA\FEA_gas_mixture.dm : 848
+SPECIFIC_HEAT_AIR
+	Value: 20
+	Comment: 
+	Defined in: code\FEA\FEA_gas_mixture.dm : 7
+	Number of references: 3
+		code\FEA\FEA_gas_mixture.dm : 10
+		code\FEA\FEA_gas_mixture.dm : 581
+		code\FEA\FEA_gas_mixture.dm : 838
+SPECIFIC_HEAT_CDO
+	Value: 30
+	Comment: 
+	Defined in: code\FEA\FEA_gas_mixture.dm : 8
+	Number of references: 3
+		code\FEA\FEA_gas_mixture.dm : 10
+		code\FEA\FEA_gas_mixture.dm : 590
+		code\FEA\FEA_gas_mixture.dm : 843
+HEAT_CAPACITY_CALCULATION(oxygen,carbon_dioxide,nitrogen,toxins)
+	Value: \
+	Comment: 
+	Defined in: code\FEA\FEA_gas_mixture.dm : 9
+	Number of references: 1
+		code\FEA\FEA_gas_mixture.dm : 64
+MINIMUM_HEAT_CAPACITY
+	Value: 0.0003
+	Comment: 
+	Defined in: code\FEA\FEA_gas_mixture.dm : 12
+	Number of references: 15
+		code\FEA\FEA_gas_mixture.dm : 128
+		code\FEA\FEA_gas_mixture.dm : 174
+		code\FEA\FEA_gas_mixture.dm : 189
+		code\FEA\FEA_gas_mixture.dm : 200
+		code\FEA\FEA_gas_mixture.dm : 683
+		code\FEA\FEA_gas_mixture.dm : 686
+		code\FEA\FEA_gas_mixture.dm : 689
+		code\FEA\FEA_gas_mixture.dm : 885
+		code\FEA\FEA_gas_mixture.dm : 908
+		code\FEA\FEA_gas_mixture.dm : 940
+		code\FEA\FEA_gas_mixture.dm : 968
+		code\FEA\FEA_gas_mixture.dm : 994
+		code\FEA\FEA_gas_mixture.dm : 1016
+		code\FEA\FEA_gas_mixture.dm : 1028
+		code\FEA\FEA_gas_mixture.dm : 1042
+QUANTIZE(variable)
+	Value: (round(variable,0.0001))
+	Comment: 
+	Defined in: code\FEA\FEA_gas_mixture.dm : 13
+	Number of references: 1
+		code\ZAS\Processing.dm : 0
+REGULATE_RATE
+	Value: 5
+	Comment: 
+	Defined in: code\game\chemistry.dm : 0
+	Number of references: 0
+TRANSMISSION_WIRE
+	Value: 0
+	Comment: 
+	Defined in: code\game\communications.dm : 16
+	Number of references: 0
+TRANSMISSION_RADIO
+	Value: 1
+	Comment: 
+	Defined in: code\game\communications.dm : 17
+	Number of references: 3
+		code\game\communications.dm : 91
+		code\game\communications.dm : 93
+		code\game\machinery\embedded_controller\embedded_controller_base.dm : 71
+STRUCDNASIZE
+	Value: 25
+	Comment: 
+	Defined in: code\game\dna.dm : 2
+	Number of references: 3
+		code\game\dna.dm : 973
+		code\game\dna.dm : 977
+		code\game\dna.dm : 1015
+ui_dropbutton
+	Value: "SOUTH-1,7"
+	Comment: 
+	Defined in: code\game\hud.dm : 1
+	Number of references: 4
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 112
+		code\modules\mob\living\carbon\human\hud.dm : 140
+		code\modules\mob\living\carbon\monkey\hud.dm : 106
+		code\modules\mob\living\silicon\robot\hud.dm : 153
+ui_swapbutton
+	Value: "SOUTH-1,7"
+	Comment: 
+	Defined in: code\game\hud.dm : 2
+	Number of references: 0
+ui_iclothing
+	Value: "SOUTH-1,2"
+	Comment: 
+	Defined in: code\game\hud.dm : 3
+	Number of references: 8
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 125
+		code\modules\mob\living\carbon\alien\humanoid\humanoid.dm : 295
+		code\modules\mob\living\carbon\human\hud.dm : 148
+		code\modules\mob\living\carbon\monkey\hud.dm : 114
+		code\modules\mob\living\silicon\robot\hud.dm : 93
+		code\modules\mob\living\silicon\robot\robot.dm : 665
+		code\modules\mob\living\silicon\robot\robot.dm : 698
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 989
+ui_oclothing
+	Value: "SOUTH,2"
+	Comment: 
+	Defined in: code\game\hud.dm : 4
+	Number of references: 5
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 172
+		code\modules\mob\living\carbon\alien\humanoid\humanoid.dm : 317
+		code\modules\mob\living\carbon\human\hud.dm : 156
+		code\modules\mob\living\carbon\monkey\hud.dm : 123
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1120
+ui_rhand
+	Value: "SOUTH,1"
+	Comment: 
+	Defined in: code\game\hud.dm : 6
+	Number of references: 5
+		code\modules\mob\mob.dm : 479
+		code\modules\mob\living\carbon\human\hud.dm : 173
+		code\modules\mob\living\carbon\monkey\hud.dm : 141
+		code\modules\mob\living\carbon\monkey\monkey.dm : 286
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1217
+ui_lhand
+	Value: "SOUTH,3"
+	Comment: 
+	Defined in: code\game\hud.dm : 7
+	Number of references: 5
+		code\modules\mob\mob.dm : 481
+		code\modules\mob\living\carbon\human\hud.dm : 181
+		code\modules\mob\living\carbon\monkey\hud.dm : 149
+		code\modules\mob\living\carbon\monkey\monkey.dm : 290
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1220
+ui_id
+	Value: "SOUTH-1,1"
+	Comment: 
+	Defined in: code\game\hud.dm : 8
+	Number of references: 9
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 135
+		code\modules\mob\living\carbon\alien\humanoid\humanoid.dm : 332
+		code\modules\mob\living\carbon\human\hud.dm : 189
+		code\modules\mob\living\carbon\monkey\hud.dm : 157
+		code\modules\mob\living\silicon\robot\hud.dm : 101
+		code\modules\mob\living\silicon\robot\robot.dm : 662
+		code\modules\mob\living\silicon\robot\robot.dm : 683
+		code\modules\mob\living\silicon\robot\robot.dm : 696
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1191
+ui_mask
+	Value: "SOUTH+1,1"
+	Comment: 
+	Defined in: code\game\hud.dm : 9
+	Number of references: 4
+		code\modules\mob\living\carbon\human\hud.dm : 197
+		code\modules\mob\living\carbon\monkey\hud.dm : 166
+		code\modules\mob\living\carbon\monkey\monkey.dm : 283
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1073
+ui_back
+	Value: "SOUTH+1,3"
+	Comment: 
+	Defined in: code\game\hud.dm : 10
+	Number of references: 4
+		code\modules\mob\living\carbon\human\hud.dm : 205
+		code\modules\mob\living\carbon\monkey\hud.dm : 174
+		code\modules\mob\living\carbon\monkey\monkey.dm : 297
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1202
+ui_storage1
+	Value: "SOUTH-1,4"
+	Comment: 
+	Defined in: code\game\hud.dm : 11
+	Number of references: 5
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 154
+		code\modules\mob\living\carbon\alien\humanoid\humanoid.dm : 320
+		code\modules\mob\living\carbon\human\hud.dm : 212
+		code\modules\mob\living\carbon\monkey\hud.dm : 181
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1194
+ui_storage2
+	Value: "SOUTH-1,5"
+	Comment: 
+	Defined in: code\game\hud.dm : 12
+	Number of references: 5
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 163
+		code\modules\mob\living\carbon\alien\humanoid\humanoid.dm : 323
+		code\modules\mob\living\carbon\human\hud.dm : 219
+		code\modules\mob\living\carbon\monkey\hud.dm : 189
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1197
+ui_resist
+	Value: "EAST+1,SOUTH-1"
+	Comment: 
+	Defined in: code\game\hud.dm : 13
+	Number of references: 4
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 181
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 115
+		code\modules\mob\living\carbon\human\hud.dm : 226
+		code\modules\mob\living\carbon\monkey\hud.dm : 197
+ui_gloves
+	Value: "SOUTH,5"
+	Comment: 
+	Defined in: code\game\hud.dm : 14
+	Number of references: 3
+		code\game\hud.dm : 114
+		code\modules\mob\living\carbon\human\hud.dm : 256
+		code\modules\mob\living\carbon\monkey\hud.dm : 211
+ui_glasses
+	Value: "SOUTH,7"
+	Comment: 
+	Defined in: code\game\hud.dm : 15
+	Number of references: 3
+		code\game\hud.dm : 117
+		code\modules\mob\living\carbon\human\hud.dm : 263
+		code\modules\mob\living\carbon\monkey\hud.dm : 219
+ui_ears
+	Value: "SOUTH,6"
+	Comment: 
+	Defined in: code\game\hud.dm : 16
+	Number of references: 3
+		code\game\hud.dm : 115
+		code\modules\mob\living\carbon\human\hud.dm : 270
+		code\modules\mob\living\carbon\monkey\hud.dm : 227
+ui_head
+	Value: "SOUTH+1,2"
+	Comment: 
+	Defined in: code\game\hud.dm : 17
+	Number of references: 3
+		code\modules\mob\living\carbon\human\hud.dm : 277
+		code\modules\mob\living\carbon\monkey\hud.dm : 235
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1167
+ui_shoes
+	Value: "SOUTH,4"
+	Comment: 
+	Defined in: code\game\hud.dm : 18
+	Number of references: 5
+		code\game\hud.dm : 113
+		code\modules\mob\living\carbon\human\hud.dm : 233
+		code\modules\mob\living\carbon\human\hud.dm : 284
+		code\modules\mob\living\carbon\monkey\hud.dm : 204
+		code\modules\mob\living\carbon\monkey\hud.dm : 243
+ui_belt
+	Value: "SOUTH-1,3"
+	Comment: 
+	Defined in: code\game\hud.dm : 19
+	Number of references: 8
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 145
+		code\modules\mob\living\carbon\alien\humanoid\humanoid.dm : 337
+		code\modules\mob\living\carbon\human\hud.dm : 291
+		code\modules\mob\living\carbon\monkey\hud.dm : 251
+		code\modules\mob\living\silicon\robot\hud.dm : 109
+		code\modules\mob\living\silicon\robot\robot.dm : 668
+		code\modules\mob\living\silicon\robot\robot.dm : 700
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 1175
+ui_throw
+	Value: "SOUTH-1,8"
+	Comment: 
+	Defined in: code\game\hud.dm : 20
+	Number of references: 4
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 227
+		code\modules\mob\living\carbon\human\hud.dm : 380
+		code\modules\mob\living\carbon\monkey\hud.dm : 341
+		code\modules\mob\living\silicon\robot\hud.dm : 159
+ui_oxygen
+	Value: "EAST+1, NORTH-4"
+	Comment: 
+	Defined in: code\game\hud.dm : 21
+	Number of references: 5
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 233
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 161
+		code\modules\mob\living\carbon\human\hud.dm : 385
+		code\modules\mob\living\carbon\monkey\hud.dm : 346
+		code\modules\mob\living\silicon\robot\hud.dm : 171
+ui_toxin
+	Value: "EAST+1, NORTH-6"
+	Comment: 
+	Defined in: code\game\hud.dm : 22
+	Number of references: 5
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 239
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 167
+		code\modules\mob\living\carbon\human\hud.dm : 403
+		code\modules\mob\living\carbon\monkey\hud.dm : 364
+		code\modules\mob\living\silicon\robot\hud.dm : 177
+ui_internal
+	Value: "EAST+1, NORTH-2"
+	Comment: 
+	Defined in: code\game\hud.dm : 23
+	Number of references: 3
+		code\modules\mob\living\carbon\human\hud.dm : 408
+		code\modules\mob\living\carbon\monkey\hud.dm : 369
+		code\modules\mob\living\silicon\robot\hud.dm : 165
+ui_fire
+	Value: "EAST+1, NORTH-8"
+	Comment: 
+	Defined in: code\game\hud.dm : 24
+	Number of references: 5
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 245
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 174
+		code\modules\mob\living\carbon\human\hud.dm : 413
+		code\modules\mob\living\carbon\monkey\hud.dm : 374
+		code\modules\mob\living\silicon\robot\hud.dm : 183
+ui_temp
+	Value: "EAST+1, NORTH-10"
+	Comment: 
+	Defined in: code\game\hud.dm : 25
+	Number of references: 3
+		code\modules\mob\living\carbon\human\hud.dm : 418
+		code\modules\mob\living\carbon\monkey\hud.dm : 379
+		code\modules\mob\living\silicon\robot\hud.dm : 189
+ui_health
+	Value: "EAST+1, NORTH-11"
+	Comment: 
+	Defined in: code\game\hud.dm : 26
+	Number of references: 5
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 251
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 181
+		code\modules\mob\living\carbon\human\hud.dm : 423
+		code\modules\mob\living\carbon\monkey\hud.dm : 384
+		code\modules\mob\living\silicon\robot\hud.dm : 195
+ui_pull
+	Value: "SOUTH-1,10"
+	Comment: 
+	Defined in: code\game\hud.dm : 27
+	Number of references: 5
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 257
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 187
+		code\modules\mob\living\carbon\human\hud.dm : 428
+		code\modules\mob\living\carbon\monkey\hud.dm : 389
+		code\modules\mob\living\silicon\robot\hud.dm : 201
+ui_hand
+	Value: "SOUTH-1,6"
+	Comment: 
+	Defined in: code\game\hud.dm : 28
+	Number of references: 4
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 278
+		code\modules\mob\living\carbon\human\hud.dm : 452
+		code\modules\mob\living\carbon\monkey\hud.dm : 407
+		code\modules\mob\living\silicon\robot\hud.dm : 220
+ui_sleep
+	Value: "EAST+1, NORTH-13"
+	Comment: 
+	Defined in: code\game\hud.dm : 29
+	Number of references: 4
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 285
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 209
+		code\modules\mob\living\carbon\human\hud.dm : 458
+		code\modules\mob\living\carbon\monkey\hud.dm : 413
+ui_rest
+	Value: "EAST+1, NORTH-14"
+	Comment: 
+	Defined in: code\game\hud.dm : 30
+	Number of references: 4
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 291
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 215
+		code\modules\mob\living\carbon\human\hud.dm : 463
+		code\modules\mob\living\carbon\monkey\hud.dm : 418
+ui_acti
+	Value: "SOUTH-1,12"
+	Comment: 
+	Defined in: code\game\hud.dm : 32
+	Number of references: 5
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 54
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 56
+		code\modules\mob\living\carbon\human\hud.dm : 89
+		code\modules\mob\living\carbon\monkey\hud.dm : 55
+		code\modules\mob\living\silicon\robot\hud.dm : 54
+ui_movi
+	Value: "SOUTH-1,14"
+	Comment: 
+	Defined in: code\game\hud.dm : 33
+	Number of references: 5
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 64
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 66
+		code\modules\mob\living\carbon\human\hud.dm : 98
+		code\modules\mob\living\carbon\monkey\hud.dm : 64
+		code\modules\mob\living\silicon\robot\hud.dm : 63
+ui_iarrowleft
+	Value: "SOUTH-1,11"
+	Comment: 
+	Defined in: code\game\hud.dm : 35
+	Number of references: 4
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 95
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 97
+		code\modules\mob\living\carbon\human\hud.dm : 125
+		code\modules\mob\living\carbon\monkey\hud.dm : 91
+ui_iarrowright
+	Value: "SOUTH-1,13"
+	Comment: 
+	Defined in: code\game\hud.dm : 36
+	Number of references: 4
+		code\modules\mob\living\carbon\alien\humanoid\hud.dm : 104
+		code\modules\mob\living\carbon\alien\larva\hud.dm : 106
+		code\modules\mob\living\carbon\human\hud.dm : 133
+		code\modules\mob\living\carbon\monkey\hud.dm : 99
+SUPPLY_DOCKZ
+	Value: 2
+	Comment: 
+	Defined in: code\game\supplyshuttle.dm : 1
+	Number of references: 0
+SUPPLY_STATIONZ
+	Value: 1
+	Comment: 
+	Defined in: code\game\supplyshuttle.dm : 2
+	Number of references: 0
+SUPPLY_POINTSPER
+	Value: 1
+	Comment: 
+	Defined in: code\game\supplyshuttle.dm : 3
+	Number of references: 3
+		code\game\supplyshuttle.dm : 6
+		code\game\supplyshuttle.dm : 487
+		code\game\supplyshuttle.dm : 522
+SUPPLY_POINTDELAY
+	Value: 450
+	Comment: 
+	Defined in: code\game\supplyshuttle.dm : 4
+	Number of references: 2
+		code\game\supplyshuttle.dm : 488
+		code\game\gamemodes\gameticker.dm : 94
+SUPPLY_MOVETIME
+	Value: 1800
+	Comment: 
+	Defined in: code\game\supplyshuttle.dm : 5
+	Number of references: 2
+		code\game\supplyshuttle.dm : 722
+		code\game\supplyshuttle.dm : 731
+SUPPLY_POINTSPERCRATE
+	Value: 5
+	Comment: 
+	Defined in: code\game\supplyshuttle.dm : 6
+	Number of references: 1
+		code\game\supplyshuttle.dm : 522
+SUPPLY_STATION_AREATYPE
+	Value: "/area/supply/station"
+	Comment: 
+	Defined in: code\game\supplyshuttle.dm : 7
+	Number of references: 5
+		code\game\supplyshuttle.dm : 506
+		code\game\supplyshuttle.dm : 516
+		code\game\supplyshuttle.dm : 525
+		code\game\supplyshuttle.dm : 836
+		code\game\supplyshuttle.dm : 837
+SUPPLY_DOCK_AREATYPE
+	Value: "/area/supply/dock"
+	Comment: 
+	Defined in: code\game\supplyshuttle.dm : 8
+	Number of references: 5
+		code\game\supplyshuttle.dm : 506
+		code\game\supplyshuttle.dm : 516
+		code\game\supplyshuttle.dm : 525
+		code\game\supplyshuttle.dm : 836
+		code\game\supplyshuttle.dm : 837
+GAME_STATE_PREGAME
+	Value: 1
+	Comment: 
+	Defined in: code\game\gamemodes\gameticker.dm : 2
+	Number of references: 9
+		code\game\gamemodes\gameticker.dm : 8
+		code\game\gamemodes\gameticker.dm : 45
+		code\game\gamemodes\gameticker.dm : 84
+		code\game\jobs\select_jobs.dm : 6
+		code\modules\admin\admin.dm : 1681
+		code\modules\mob\new_player\new_player.dm : 68
+		code\modules\mob\new_player\new_player.dm : 79
+		code\modules\mob\new_player\new_player.dm : 94
+		code\modules\mob\new_player\new_player.dm : 99
+GAME_STATE_SETTING_UP
+	Value: 2
+	Comment: 
+	Defined in: code\game\gamemodes\gameticker.dm : 3
+	Number of references: 2
+		code\game\gamemodes\gameticker.dm : 52
+		code\modules\admin\admin.dm : 1682
+GAME_STATE_PLAYING
+	Value: 3
+	Comment: 
+	Defined in: code\game\gamemodes\gameticker.dm : 4
+	Number of references: 4
+		code\game\gamemodes\gameticker.dm : 113
+		code\game\gamemodes\gameticker.dm : 159
+		code\modules\admin\admin.dm : 1157
+		code\modules\mob\new_player\new_player.dm : 237
+GAME_STATE_FINISHED
+	Value: 4
+	Comment: 
+	Defined in: code\game\gamemodes\gameticker.dm : 5
+	Number of references: 1
+		code\game\gamemodes\gameticker.dm : 176
+ERROR ERROR
+	Value: Something went wrong here
+	Comment: #define METEOR_TEMPERATURE
+	Defined in: code\game\gamemodes\meteor\meteors.dm : 0
+	Number of references: 0
+AIRLOCK_CONTROL_RANGE
+	Value: 5
+	Comment: 
+	Defined in: code\game\machinery\airlock_control.dm : 0
+	Number of references: 4
+		code\game\machinery\airlock_control.dm : 82
+		code\game\machinery\airlock_control.dm : 143
+		code\game\machinery\airlock_control.dm : 160
+		code\game\machinery\airlock_control.dm : 207
+SECBOT_IDLE
+	Value: 0
+	Comment: 
+	Defined in: code\game\machinery\bots\secbot.dm : 35
+	Number of references: 12
+		code\game\machinery\bots\secbot.dm : 152
+		code\game\machinery\bots\secbot.dm : 169
+		code\game\machinery\bots\secbot.dm : 180
+		code\game\machinery\bots\secbot.dm : 199
+		code\game\machinery\bots\secbot.dm : 242
+		code\game\machinery\bots\secbot.dm : 393
+		code\game\machinery\bots\secbot.dm : 405
+		code\game\machinery\bots\secbot.dm : 488
+		code\game\machinery\bots\secbot.dm : 524
+		code\game\machinery\bots\secbot.dm : 565
+		code\game\machinery\bots\secbot.dm : 571
+		code\game\machinery\bots\secbot.dm : 860
+SECBOT_HUNT
+	Value: 1
+	Comment: 
+	Defined in: code\game\machinery\bots\secbot.dm : 36
+	Number of references: 4
+		code\game\machinery\bots\secbot.dm : 229
+		code\game\machinery\bots\secbot.dm : 250
+		code\game\machinery\bots\secbot.dm : 328
+		code\game\machinery\bots\secbot.dm : 670
+SECBOT_PREP_ARREST
+	Value: 2
+	Comment: 
+	Defined in: code\game\machinery\bots\secbot.dm : 37
+	Number of references: 2
+		code\game\machinery\bots\secbot.dm : 310
+		code\game\machinery\bots\secbot.dm : 323
+SECBOT_ARREST
+	Value: 3
+	Comment: 
+	Defined in: code\game\machinery\bots\secbot.dm : 38
+	Number of references: 2
+		code\game\machinery\bots\secbot.dm : 333
+		code\game\machinery\bots\secbot.dm : 401
+SECBOT_START_PATROL
+	Value: 4
+	Comment: 
+	Defined in: code\game\machinery\bots\secbot.dm : 39
+	Number of references: 3
+		code\game\machinery\bots\secbot.dm : 248
+		code\game\machinery\bots\secbot.dm : 409
+		code\game\machinery\bots\secbot.dm : 492
+SECBOT_PATROL
+	Value: 5
+	Comment: 
+	Defined in: code\game\machinery\bots\secbot.dm : 40
+	Number of references: 4
+		code\game\machinery\bots\secbot.dm : 412
+		code\game\machinery\bots\secbot.dm : 421
+		code\game\machinery\bots\secbot.dm : 428
+		code\game\machinery\bots\secbot.dm : 431
+SECBOT_SUMMON
+	Value: 6
+	Comment: 
+	Defined in: code\game\machinery\bots\secbot.dm : 41
+	Number of references: 3
+		code\game\machinery\bots\secbot.dm : 434
+		code\game\machinery\bots\secbot.dm : 437
+		code\game\machinery\bots\secbot.dm : 581
+ERROR ERROR
+	Value: Something went wrong here
+	Comment: #define SECBOT_DROPCONTRABAND
+	Defined in: code\game\machinery\bots\secbot.dm : 42
+	Number of references: 0
+AIRLOCK_WIRE_IDSCAN
+	Value: 1
+	Comment: 
+	Defined in: code\game\machinery\doors\airlock.dm : 2
+	Number of references: 6
+		code\game\machinery\doors\airlock.dm : 271
+		code\game\machinery\doors\airlock.dm : 429
+		code\game\machinery\doors\airlock.dm : 570
+		code\game\machinery\doors\airlock.dm : 670
+		code\game\machinery\doors\airlock.dm : 855
+		code\game\machinery\doors\airlock.dm : 913
+AIRLOCK_WIRE_MAIN_POWER1
+	Value: 2
+	Comment: 
+	Defined in: code\game\machinery\doors\airlock.dm : 3
+	Number of references: 10
+		code\game\machinery\doors\airlock.dm : 275
+		code\game\machinery\doors\airlock.dm : 340
+		code\game\machinery\doors\airlock.dm : 375
+		code\game\machinery\doors\airlock.dm : 376
+		code\game\machinery\doors\airlock.dm : 433
+		code\game\machinery\doors\airlock.dm : 457
+		code\game\machinery\doors\airlock.dm : 552
+		code\game\machinery\doors\airlock.dm : 577
+		code\game\machinery\doors\airlock.dm : 652
+		code\game\machinery\doors\airlock.dm : 677
+AIRLOCK_WIRE_MAIN_POWER2
+	Value: 3
+	Comment: 
+	Defined in: code\game\machinery\doors\airlock.dm : 4
+	Number of references: 10
+		code\game\machinery\doors\airlock.dm : 275
+		code\game\machinery\doors\airlock.dm : 340
+		code\game\machinery\doors\airlock.dm : 375
+		code\game\machinery\doors\airlock.dm : 376
+		code\game\machinery\doors\airlock.dm : 433
+		code\game\machinery\doors\airlock.dm : 457
+		code\game\machinery\doors\airlock.dm : 552
+		code\game\machinery\doors\airlock.dm : 579
+		code\game\machinery\doors\airlock.dm : 652
+		code\game\machinery\doors\airlock.dm : 679
+AIRLOCK_WIRE_BACKUP_POWER1
+	Value: 5
+	Comment: 
+	Defined in: code\game\machinery\doors\airlock.dm : 5
+	Number of references: 10
+		code\game\machinery\doors\airlock.dm : 293
+		code\game\machinery\doors\airlock.dm : 351
+		code\game\machinery\doors\airlock.dm : 380
+		code\game\machinery\doors\airlock.dm : 381
+		code\game\machinery\doors\airlock.dm : 434
+		code\game\machinery\doors\airlock.dm : 463
+		code\game\machinery\doors\airlock.dm : 560
+		code\game\machinery\doors\airlock.dm : 586
+		code\game\machinery\doors\airlock.dm : 660
+		code\game\machinery\doors\airlock.dm : 686
+AIRLOCK_WIRE_BACKUP_POWER2
+	Value: 6
+	Comment: 
+	Defined in: code\game\machinery\doors\airlock.dm : 6
+	Number of references: 10
+		code\game\machinery\doors\airlock.dm : 293
+		code\game\machinery\doors\airlock.dm : 351
+		code\game\machinery\doors\airlock.dm : 380
+		code\game\machinery\doors\airlock.dm : 381
+		code\game\machinery\doors\airlock.dm : 434
+		code\game\machinery\doors\airlock.dm : 463
+		code\game\machinery\doors\airlock.dm : 560
+		code\game\machinery\doors\airlock.dm : 588
+		code\game\machinery\doors\airlock.dm : 660
+		code\game\machinery\doors\airlock.dm : 688
+AIRLOCK_WIRE_OPEN_DOOR
+	Value: 7
+	Comment: 
+	Defined in: code\game\machinery\doors\airlock.dm : 7
+	Number of references: 3
+		code\game\machinery\doors\airlock.dm : 184
+		code\game\machinery\doors\airlock.dm : 217
+		code\game\machinery\doors\airlock.dm : 321
+AIRLOCK_WIRE_AI_CONTROL
+	Value: 8
+	Comment: 
+	Defined in: code\game\machinery\doors\airlock.dm : 8
+	Number of references: 3
+		code\game\machinery\doors\airlock.dm : 296
+		code\game\machinery\doors\airlock.dm : 356
+		code\game\machinery\doors\airlock.dm : 385
+AIRLOCK_WIRE_ELECTRIFY
+	Value: 9
+	Comment: 
+	Defined in: code\game\machinery\doors\airlock.dm : 9
+	Number of references: 8
+		code\game\machinery\doors\airlock.dm : 308
+		code\game\machinery\doors\airlock.dm : 364
+		code\game\machinery\doors\airlock.dm : 393
+		code\game\machinery\doors\airlock.dm : 608
+		code\game\machinery\doors\airlock.dm : 708
+		code\game\machinery\doors\airlock.dm : 882
+		code\game\machinery\doors\airlock.dm : 935
+		code\game\machinery\doors\airlock.dm : 952
+AIRLOCK_WIRE_CRUSH
+	Value: 10
+	Comment: 
+	Defined in: code\game\machinery\doors\airlock.dm : 10
+	Number of references: 3
+		code\game\machinery\doors\airlock.dm : 329
+		code\game\machinery\doors\airlock.dm : 591
+		code\game\machinery\doors\airlock.dm : 691
+AIRLOCK_WIRE_LIGHT
+	Value: 11
+	Comment: 
+	Defined in: code\game\machinery\doors\airlock.dm : 11
+	Number of references: 3
+		code\game\machinery\doors\airlock.dm : 331
+		code\game\machinery\doors\airlock.dm : 616
+		code\game\machinery\doors\airlock.dm : 716
+ACCESS_STATE_INTERNAL
+	Value: -1
+	Comment: 
+	Defined in: code\game\machinery\embedded_controller\access_controller.dm : 1
+	Number of references: 6
+		code\game\machinery\embedded_controller\access_controller.dm : 38
+		code\game\machinery\embedded_controller\access_controller.dm : 45
+		code\game\machinery\embedded_controller\access_controller.dm : 54
+		code\game\machinery\embedded_controller\access_controller.dm : 58
+		code\game\machinery\embedded_controller\access_controller.dm : 83
+		code\game\machinery\embedded_controller\access_controller.dm : 189
+ACCESS_STATE_LOCKED
+	Value: 0
+	Comment: 
+	Defined in: code\game\machinery\embedded_controller\access_controller.dm : 2
+	Number of references: 8
+		code\game\machinery\embedded_controller\access_controller.dm : 10
+		code\game\machinery\embedded_controller\access_controller.dm : 11
+		code\game\machinery\embedded_controller\access_controller.dm : 42
+		code\game\machinery\embedded_controller\access_controller.dm : 50
+		code\game\machinery\embedded_controller\access_controller.dm : 61
+		code\game\machinery\embedded_controller\access_controller.dm : 71
+		code\game\machinery\embedded_controller\access_controller.dm : 127
+		code\game\machinery\embedded_controller\access_controller.dm : 192
+ACCESS_STATE_EXTERNAL
+	Value: 1
+	Comment: 
+	Defined in: code\game\machinery\embedded_controller\access_controller.dm : 3
+	Number of references: 6
+		code\game\machinery\embedded_controller\access_controller.dm : 40
+		code\game\machinery\embedded_controller\access_controller.dm : 43
+		code\game\machinery\embedded_controller\access_controller.dm : 52
+		code\game\machinery\embedded_controller\access_controller.dm : 100
+		code\game\machinery\embedded_controller\access_controller.dm : 124
+		code\game\machinery\embedded_controller\access_controller.dm : 195
+AIRLOCK_STATE_INOPEN
+	Value: -2
+	Comment: 
+	Defined in: code\game\machinery\embedded_controller\airlock_controller.dm : 1
+	Number of references: 7
+		code\game\machinery\embedded_controller\airlock_controller.dm : 16
+		code\game\machinery\embedded_controller\airlock_controller.dm : 45
+		code\game\machinery\embedded_controller\airlock_controller.dm : 54
+		code\game\machinery\embedded_controller\airlock_controller.dm : 60
+		code\game\machinery\embedded_controller\airlock_controller.dm : 80
+		code\game\machinery\embedded_controller\airlock_controller.dm : 86
+		code\game\machinery\embedded_controller\airlock_controller.dm : 244
+AIRLOCK_STATE_PRESSURIZE
+	Value: -1
+	Comment: 
+	Defined in: code\game\machinery\embedded_controller\airlock_controller.dm : 2
+	Number of references: 3
+		code\game\machinery\embedded_controller\airlock_controller.dm : 76
+		code\game\machinery\embedded_controller\airlock_controller.dm : 117
+		code\game\machinery\embedded_controller\airlock_controller.dm : 247
+AIRLOCK_STATE_CLOSED
+	Value: 0
+	Comment: 
+	Defined in: code\game\machinery\embedded_controller\airlock_controller.dm : 3
+	Number of references: 11
+		code\game\machinery\embedded_controller\airlock_controller.dm : 15
+		code\game\machinery\embedded_controller\airlock_controller.dm : 42
+		code\game\machinery\embedded_controller\airlock_controller.dm : 50
+		code\game\machinery\embedded_controller\airlock_controller.dm : 56
+		code\game\machinery\embedded_controller\airlock_controller.dm : 63
+		code\game\machinery\embedded_controller\airlock_controller.dm : 96
+		code\game\machinery\embedded_controller\airlock_controller.dm : 98
+		code\game\machinery\embedded_controller\airlock_controller.dm : 147
+		code\game\machinery\embedded_controller\airlock_controller.dm : 149
+		code\game\machinery\embedded_controller\airlock_controller.dm : 166
+		code\game\machinery\embedded_controller\airlock_controller.dm : 249
+AIRLOCK_STATE_DEPRESSURIZE
+	Value: 1
+	Comment: 
+	Defined in: code\game\machinery\embedded_controller\airlock_controller.dm : 4
+	Number of references: 4
+		code\game\machinery\embedded_controller\airlock_controller.dm : 105
+		code\game\machinery\embedded_controller\airlock_controller.dm : 131
+		code\game\machinery\embedded_controller\airlock_controller.dm : 164
+		code\game\machinery\embedded_controller\airlock_controller.dm : 252
+AIRLOCK_STATE_OUTOPEN
+	Value: 2
+	Comment: 
+	Defined in: code\game\machinery\embedded_controller\airlock_controller.dm : 5
+	Number of references: 6
+		code\game\machinery\embedded_controller\airlock_controller.dm : 43
+		code\game\machinery\embedded_controller\airlock_controller.dm : 52
+		code\game\machinery\embedded_controller\airlock_controller.dm : 139
+		code\game\machinery\embedded_controller\airlock_controller.dm : 145
+		code\game\machinery\embedded_controller\airlock_controller.dm : 160
+		code\game\machinery\embedded_controller\airlock_controller.dm : 254
+cycle_pause
+	Value: 5
+	Comment: 
+	Defined in: code\game\objects\alien\facehugger.dm : 0
+	Number of references: 13
+		code\game\objects\alien\facehugger.dm : 238
+		code\game\objects\alien\facehugger.dm : 248
+		code\game\objects\alien\facehugger.dm : 269
+		code\game\objects\alien\facehugger.dm : 272
+		code\game\objects\alien\facehugger.dm : 283
+		code\game\objects\alien\facehugger.dm : 296
+		code\game\objects\alien\facehugger.dm : 315
+		code\game\objects\alien\facehugger.dm : 319
+		code\game\objects\alien\facehugger.dm : 345
+		code\game\objects\alien\facehugger.dm : 354
+		code\game\objects\alien\facehugger.dm : 357
+		code\modules\mob\living\carbon\human\ai.dm : 13
+		code\modules\mob\living\carbon\human\ai.dm : 46
+viewrange
+	Value: 7
+	Comment: 
+	Defined in: code\game\objects\alien\facehugger.dm : 1
+	Number of references: 13
+		code\game\objects\alien\facehugger.dm : 203
+		code\game\objects\alien\facehugger.dm : 204
+		code\game\objects\alien\facehugger.dm : 223
+		code\game\objects\alien\facehugger.dm : 289
+		code\game\objects\alien\facehugger.dm : 304
+		code\game\objects\alien\facehugger.dm : 305
+		code\game\objects\alien\facehugger.dm : 325
+		code\modules\mob\living\carbon\human\ai.dm : 14
+		code\modules\mob\living\carbon\human\ai.dm : 134
+		code\modules\mob\living\carbon\human\ai.dm : 140
+		code\modules\mob\living\carbon\human\ai.dm : 143
+		code\modules\mob\living\carbon\human\ai.dm : 157
+		code\modules\mob\living\carbon\human\ai.dm : 169
+FLASHLIGHT_LUM
+	Value: 4
+	Comment: 
+	Defined in: code\game\objects\devices\flashlight.dm : 0
+	Number of references: 10
+		code\game\objects\devices\flashlight.dm : 7
+		code\game\objects\devices\flashlight.dm : 9
+		code\game\objects\devices\flashlight.dm : 15
+		code\game\objects\devices\flashlight.dm : 21
+		code\game\objects\devices\flashlight.dm : 22
+		code\game\objects\devices\flashlight.dm : 30
+		code\game\objects\devices\flashlight.dm : 32
+		code\game\objects\devices\flashlight.dm : 37
+		code\game\objects\devices\flashlight.dm : 43
+		code\game\objects\devices\flashlight.dm : 44
+ZIPPO_LUM
+	Value: 2
+	Comment: 
+	Defined in: code\game\objects\items\weapons\cigs_lighters.dm : 35
+	Number of references: 7
+		code\game\objects\items\weapons\cigs_lighters.dm : 46
+		code\game\objects\items\weapons\cigs_lighters.dm : 56
+		code\game\objects\items\weapons\cigs_lighters.dm : 69
+		code\game\objects\items\weapons\cigs_lighters.dm : 79
+		code\game\objects\items\weapons\cigs_lighters.dm : 101
+		code\game\objects\items\weapons\cigs_lighters.dm : 107
+		code\game\objects\items\weapons\cigs_lighters.dm : 108
+Fiction
+	Value: 1
+	Comment: 
+	Defined in: code\head\books.dm : 13
+	Number of references: 6
+		code\head\books.dm : 29
+		code\head\books.dm : 84
+		code\head\books.dm : 89
+		code\head\books.dm : 155
+		code\head\books.dm : 157
+		code\head\books.dm : 158
+Engineering
+	Value: 2
+	Comment: 
+	Defined in: code\head\books.dm : 14
+	Number of references: 7
+		code\head\books.dm : 92
+		code\head\books.dm : 93
+		code\head\books.dm : 155
+		code\head\books.dm : 159
+		code\head\books.dm : 160
+		code\modules\mob\living\silicon\robot\robot.dm : 55
+		code\modules\mob\living\silicon\robot\robot.dm : 71
+Medical
+	Value: 3
+	Comment: 
+	Defined in: code\head\books.dm : 15
+	Number of references: 13
+		code\head\books.dm : 95
+		code\head\books.dm : 96
+		code\head\books.dm : 155
+		code\head\books.dm : 161
+		code\head\books.dm : 162
+		code\modules\mob\dead\observer\observer.dm : 98
+		code\modules\mob\dead\observer\observer.dm : 137
+		code\modules\mob\living\silicon\robot\robot.dm : 55
+		code\modules\mob\living\silicon\robot\robot.dm : 57
+		code\modules\mob\new_player\titles.dm : 7
+		code\modules\mob\new_player\titles.dm : 8
+		code\WorkInProgress\cloning.dm : 738
+		code\WorkInProgress\ISaidNo Release\manufacturing.dm : 1095
+History
+	Value: 4
+	Comment: 
+	Defined in: code\head\books.dm : 16
+	Number of references: 5
+		code\head\books.dm : 98
+		code\head\books.dm : 99
+		code\head\books.dm : 155
+		code\head\books.dm : 163
+		code\head\books.dm : 164
+Business
+	Value: 5
+	Comment: 
+	Defined in: code\head\books.dm : 17
+	Number of references: 5
+		code\head\books.dm : 101
+		code\head\books.dm : 102
+		code\head\books.dm : 155
+		code\head\books.dm : 165
+		code\head\books.dm : 166
+SelfHelp
+	Value: 6
+	Comment: 
+	Defined in: code\head\books.dm : 18
+	Number of references: 4
+		code\head\books.dm : 105
+		code\head\books.dm : 155
+		code\head\books.dm : 167
+		code\head\books.dm : 168
+Science
+	Value: 7
+	Comment: 
+	Defined in: code\head\books.dm : 19
+	Number of references: 5
+		code\head\books.dm : 107
+		code\head\books.dm : 108
+		code\head\books.dm : 155
+		code\head\books.dm : 169
+		code\head\books.dm : 170
+Religion
+	Value: 8
+	Comment: 
+	Defined in: code\head\books.dm : 20
+	Number of references: 5
+		code\head\books.dm : 110
+		code\head\books.dm : 111
+		code\head\books.dm : 155
+		code\head\books.dm : 171
+		code\head\books.dm : 172
+Cooking
+	Value: 9
+	Comment: 
+	Defined in: code\head\books.dm : 21
+	Number of references: 5
+		code\head\books.dm : 113
+		code\head\books.dm : 114
+		code\head\books.dm : 155
+		code\head\books.dm : 173
+		code\head\books.dm : 174
+Default_Cursor
+	Value: 0
+	Comment: 
+	Defined in: code\head\mysql.dm : 1
+	Number of references: 1
+		code\head\mysql.dm : 55
+Client_Cursor
+	Value: 1
+	Comment: 
+	Defined in: code\head\mysql.dm : 2
+	Number of references: 0
+Server_Cursor
+	Value: 2
+	Comment: 
+	Defined in: code\head\mysql.dm : 3
+	Number of references: 0
+TEXT_CONV
+	Value: 1
+	Comment: 
+	Defined in: code\head\mysql.dm : 7
+	Number of references: 0
+RSC_FILE_CONV
+	Value: 2
+	Comment: 
+	Defined in: code\head\mysql.dm : 8
+	Number of references: 0
+NUMBER_CONV
+	Value: 3
+	Comment: 
+	Defined in: code\head\mysql.dm : 9
+	Number of references: 0
+IS_NUMERIC
+	Value: 1
+	Comment: 
+	Defined in: code\head\mysql.dm : 13
+	Number of references: 0
+IS_BINARY
+	Value: 2
+	Comment: 
+	Defined in: code\head\mysql.dm : 14
+	Number of references: 0
+IS_NOT_NULL
+	Value: 4
+	Comment: 
+	Defined in: code\head\mysql.dm : 15
+	Number of references: 0
+IS_PRIMARY_KEY
+	Value: 8
+	Comment: 
+	Defined in: code\head\mysql.dm : 16
+	Number of references: 0
+IS_UNSIGNED
+	Value: 16
+	Comment: 
+	Defined in: code\head\mysql.dm : 17
+	Number of references: 0
+TINYINT
+	Value: 1
+	Comment: 
+	Defined in: code\head\mysql.dm : 21
+	Number of references: 1
+		code\head\mysql.dm : 168
+SMALLINT
+	Value: 2
+	Comment: 
+	Defined in: code\head\mysql.dm : 22
+	Number of references: 1
+		code\head\mysql.dm : 169
+MEDIUMINT
+	Value: 3
+	Comment: 
+	Defined in: code\head\mysql.dm : 23
+	Number of references: 1
+		code\head\mysql.dm : 170
+INTEGER
+	Value: 4
+	Comment: 
+	Defined in: code\head\mysql.dm : 24
+	Number of references: 1
+		code\head\mysql.dm : 171
+BIGINT
+	Value: 5
+	Comment: 
+	Defined in: code\head\mysql.dm : 25
+	Number of references: 1
+		code\head\mysql.dm : 172
+DECIMAL
+	Value: 6
+	Comment: 
+	Defined in: code\head\mysql.dm : 26
+	Number of references: 0
+FLOAT
+	Value: 7
+	Comment: 
+	Defined in: code\head\mysql.dm : 27
+	Number of references: 2
+		code\head\mysql.dm : 173
+		code\WorkInProgress\ISaidNo Release\mining.dm : 1493
+DOUBLE
+	Value: 8
+	Comment: 
+	Defined in: code\head\mysql.dm : 28
+	Number of references: 1
+		code\head\mysql.dm : 174
+DATE
+	Value: 9
+	Comment: 
+	Defined in: code\head\mysql.dm : 29
+	Number of references: 9
+		code\head\mysql.dm : 30
+		code\head\mysql.dm : 175
+		code\head\mysql.dm : 176
+		code\modules\admin\admin.dm : 146
+		code\WorkInProgress\KeelinsStuff.dm : 34
+		code\WorkInProgress\KeelinsStuff.dm : 40
+		code\WorkInProgress\KeelinsStuff.dm : 47
+		code\WorkInProgress\KeelinsStuff.dm : 64
+		code\WorkInProgress\Uristqwerty\SDQL_2_parser.dm : 197
+DATETIME
+	Value: 10
+	Comment: 
+	Defined in: code\head\mysql.dm : 30
+	Number of references: 1
+		code\head\mysql.dm : 176
+TIMESTAMP
+	Value: 11
+	Comment: 
+	Defined in: code\head\mysql.dm : 31
+	Number of references: 1
+		code\head\mysql.dm : 177
+TIME
+	Value: 12
+	Comment: 
+	Defined in: code\head\mysql.dm : 32
+	Number of references: 3
+		code\head\mysql.dm : 176
+		code\head\mysql.dm : 177
+		code\head\mysql.dm : 178
+STRING
+	Value: 13
+	Comment: 
+	Defined in: code\head\mysql.dm : 33
+	Number of references: 1
+		code\head\mysql.dm : 179
+BLOB
+	Value: 14
+	Comment: 
+	Defined in: code\head\mysql.dm : 34
+	Number of references: 1
+		code\head\mysql.dm : 180
+TOUCH
+	Value: 1
+	Comment: 
+	Defined in: code\modules\Chemistry\Chemistry-Holder.dm : 0
+	Number of references: 16
+		code\modules\Chemistry\Chemistry-Holder.dm : 173
+		code\modules\Chemistry\Chemistry-Holder.dm : 175
+		code\modules\Chemistry\Chemistry-Holder.dm : 177
+		code\modules\Chemistry\Chemistry-Reagents.dm : 22
+		code\modules\Chemistry\Chemistry-Reagents.dm : 25
+		code\modules\Chemistry\Chemistry-Reagents.dm : 244
+		code\modules\Chemistry\Chemistry-Reagents.dm : 584
+		code\modules\Chemistry\Chemistry-Reagents.dm : 585
+		code\modules\Chemistry\Chemistry-Reagents.dm : 638
+		code\modules\Chemistry\Chemistry-Reagents.dm : 639
+		code\modules\Chemistry\Chemistry-Reagents.dm : 729
+		code\modules\Chemistry\Chemistry-Reagents.dm : 731
+		code\modules\Chemistry\Chemistry-Reagents.dm : 819
+		code\modules\Chemistry\Chemistry-Tools.dm : 429
+		code\modules\Chemistry\Chemistry-Tools.dm : 471
+		code\modules\Chemistry\Chemistry-Tools.dm : 512
+INGEST
+	Value: 2
+	Comment: 
+	Defined in: code\modules\Chemistry\Chemistry-Holder.dm : 1
+	Number of references: 10
+		code\modules\Chemistry\Chemistry-Holder.dm : 180
+		code\modules\Chemistry\Chemistry-Holder.dm : 182
+		code\modules\Chemistry\Chemistry-Reagents.dm : 731
+		code\modules\Chemistry\Chemistry-Tools.dm : 721
+		code\modules\Chemistry\Chemistry-Tools.dm : 796
+		code\modules\Chemistry\Chemistry-Tools.dm : 815
+		code\WorkInProgress\food\drinks.dm : 49
+		code\WorkInProgress\food\drinks.dm : 65
+		code\WorkInProgress\food\snacks.dm : 59
+		code\WorkInProgress\food\snacks.dm : 79
+SOLID
+	Value: 1
+	Comment: 
+	Defined in: code\modules\Chemistry\Chemistry-Machinery.dm : 0
+	Number of references: 18
+		code\modules\Chemistry\Chemistry-Machinery.dm : 62
+		code\modules\Chemistry\Chemistry-Reagents.dm : 0
+		code\modules\Chemistry\Chemistry-Reagents.dm : 13
+		code\modules\Chemistry\Chemistry-Reagents.dm : 488
+		code\modules\Chemistry\Chemistry-Reagents.dm : 507
+		code\modules\Chemistry\Chemistry-Reagents.dm : 513
+		code\modules\Chemistry\Chemistry-Reagents.dm : 546
+		code\modules\Chemistry\Chemistry-Reagents.dm : 552
+		code\modules\Chemistry\Chemistry-Reagents.dm : 565
+		code\modules\Chemistry\Chemistry-Reagents.dm : 685
+		code\modules\Chemistry\Chemistry-Reagents.dm : 703
+		code\modules\Chemistry\Chemistry-Reagents.dm : 715
+		code\modules\Chemistry\Chemistry-Reagents.dm : 750
+		code\modules\Chemistry\Chemistry-Reagents.dm : 756
+		code\modules\Chemistry\Chemistry-Reagents.dm : 762
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1125
+		code\modules\Chemistry\ChemistrySystemIV.dm : 34
+		code\WorkInProgress\ISaidNo Release\plants_food_Mini.dm : 10
+LIQUID
+	Value: 2
+	Comment: 
+	Defined in: code\modules\Chemistry\Chemistry-Machinery.dm : 1
+	Number of references: 51
+		code\modules\Chemistry\Chemistry-Machinery.dm : 58
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1
+		code\modules\Chemistry\Chemistry-Reagents.dm : 59
+		code\modules\Chemistry\Chemistry-Reagents.dm : 67
+		code\modules\Chemistry\Chemistry-Reagents.dm : 92
+		code\modules\Chemistry\Chemistry-Reagents.dm : 120
+		code\modules\Chemistry\Chemistry-Reagents.dm : 146
+		code\modules\Chemistry\Chemistry-Reagents.dm : 175
+		code\modules\Chemistry\Chemistry-Reagents.dm : 223
+		code\modules\Chemistry\Chemistry-Reagents.dm : 299
+		code\modules\Chemistry\Chemistry-Reagents.dm : 325
+		code\modules\Chemistry\Chemistry-Reagents.dm : 350
+		code\modules\Chemistry\Chemistry-Reagents.dm : 373
+		code\modules\Chemistry\Chemistry-Reagents.dm : 390
+		code\modules\Chemistry\Chemistry-Reagents.dm : 402
+		code\modules\Chemistry\Chemistry-Reagents.dm : 423
+		code\modules\Chemistry\Chemistry-Reagents.dm : 436
+		code\modules\Chemistry\Chemistry-Reagents.dm : 456
+		code\modules\Chemistry\Chemistry-Reagents.dm : 494
+		code\modules\Chemistry\Chemistry-Reagents.dm : 571
+		code\modules\Chemistry\Chemistry-Reagents.dm : 628
+		code\modules\Chemistry\Chemistry-Reagents.dm : 728
+		code\modules\Chemistry\Chemistry-Reagents.dm : 768
+		code\modules\Chemistry\Chemistry-Reagents.dm : 792
+		code\modules\Chemistry\Chemistry-Reagents.dm : 807
+		code\modules\Chemistry\Chemistry-Reagents.dm : 846
+		code\modules\Chemistry\Chemistry-Reagents.dm : 857
+		code\modules\Chemistry\Chemistry-Reagents.dm : 887
+		code\modules\Chemistry\Chemistry-Reagents.dm : 901
+		code\modules\Chemistry\Chemistry-Reagents.dm : 914
+		code\modules\Chemistry\Chemistry-Reagents.dm : 929
+		code\modules\Chemistry\Chemistry-Reagents.dm : 940
+		code\modules\Chemistry\Chemistry-Reagents.dm : 951
+		code\modules\Chemistry\Chemistry-Reagents.dm : 962
+		code\modules\Chemistry\Chemistry-Reagents.dm : 983
+		code\modules\Chemistry\Chemistry-Reagents.dm : 997
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1011
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1022
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1033
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1046
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1061
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1072
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1087
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1101
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1115
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1131
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1137
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1168
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1175
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1181
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1187
+GAS
+	Value: 3
+	Comment: 
+	Defined in: code\modules\Chemistry\Chemistry-Machinery.dm : 2
+	Number of references: 13
+		code\modules\Chemistry\Chemistry-Machinery.dm : 60
+		code\modules\Chemistry\Chemistry-Reagents.dm : 2
+		code\modules\Chemistry\Chemistry-Reagents.dm : 470
+		code\modules\Chemistry\Chemistry-Reagents.dm : 476
+		code\modules\Chemistry\Chemistry-Reagents.dm : 482
+		code\modules\Chemistry\Chemistry-Reagents.dm : 524
+		code\modules\Chemistry\Chemistry-Reagents.dm : 535
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1162
+		code\modules\mob\living\carbon\life.dm : 503
+		code\modules\mob\living\carbon\alien\life.dm : 76
+		code\modules\mob\living\silicon\robot\life.dm : 82
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 706
+		code\WorkInProgress\recycling\disposal.dm : 327
+SOLID
+	Value: 1
+	Comment: 
+	Defined in: code\modules\Chemistry\Chemistry-Reagents.dm : 0
+	Number of references: 16
+		code\modules\Chemistry\Chemistry-Reagents.dm : 13
+		code\modules\Chemistry\Chemistry-Reagents.dm : 488
+		code\modules\Chemistry\Chemistry-Reagents.dm : 507
+		code\modules\Chemistry\Chemistry-Reagents.dm : 513
+		code\modules\Chemistry\Chemistry-Reagents.dm : 546
+		code\modules\Chemistry\Chemistry-Reagents.dm : 552
+		code\modules\Chemistry\Chemistry-Reagents.dm : 565
+		code\modules\Chemistry\Chemistry-Reagents.dm : 685
+		code\modules\Chemistry\Chemistry-Reagents.dm : 703
+		code\modules\Chemistry\Chemistry-Reagents.dm : 715
+		code\modules\Chemistry\Chemistry-Reagents.dm : 750
+		code\modules\Chemistry\Chemistry-Reagents.dm : 756
+		code\modules\Chemistry\Chemistry-Reagents.dm : 762
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1125
+		code\modules\Chemistry\ChemistrySystemIV.dm : 34
+		code\WorkInProgress\ISaidNo Release\plants_food_Mini.dm : 10
+LIQUID
+	Value: 2
+	Comment: 
+	Defined in: code\modules\Chemistry\Chemistry-Reagents.dm : 1
+	Number of references: 49
+		code\modules\Chemistry\Chemistry-Reagents.dm : 59
+		code\modules\Chemistry\Chemistry-Reagents.dm : 67
+		code\modules\Chemistry\Chemistry-Reagents.dm : 92
+		code\modules\Chemistry\Chemistry-Reagents.dm : 120
+		code\modules\Chemistry\Chemistry-Reagents.dm : 146
+		code\modules\Chemistry\Chemistry-Reagents.dm : 175
+		code\modules\Chemistry\Chemistry-Reagents.dm : 223
+		code\modules\Chemistry\Chemistry-Reagents.dm : 299
+		code\modules\Chemistry\Chemistry-Reagents.dm : 325
+		code\modules\Chemistry\Chemistry-Reagents.dm : 350
+		code\modules\Chemistry\Chemistry-Reagents.dm : 373
+		code\modules\Chemistry\Chemistry-Reagents.dm : 390
+		code\modules\Chemistry\Chemistry-Reagents.dm : 402
+		code\modules\Chemistry\Chemistry-Reagents.dm : 423
+		code\modules\Chemistry\Chemistry-Reagents.dm : 436
+		code\modules\Chemistry\Chemistry-Reagents.dm : 456
+		code\modules\Chemistry\Chemistry-Reagents.dm : 494
+		code\modules\Chemistry\Chemistry-Reagents.dm : 571
+		code\modules\Chemistry\Chemistry-Reagents.dm : 628
+		code\modules\Chemistry\Chemistry-Reagents.dm : 728
+		code\modules\Chemistry\Chemistry-Reagents.dm : 768
+		code\modules\Chemistry\Chemistry-Reagents.dm : 792
+		code\modules\Chemistry\Chemistry-Reagents.dm : 807
+		code\modules\Chemistry\Chemistry-Reagents.dm : 846
+		code\modules\Chemistry\Chemistry-Reagents.dm : 857
+		code\modules\Chemistry\Chemistry-Reagents.dm : 887
+		code\modules\Chemistry\Chemistry-Reagents.dm : 901
+		code\modules\Chemistry\Chemistry-Reagents.dm : 914
+		code\modules\Chemistry\Chemistry-Reagents.dm : 929
+		code\modules\Chemistry\Chemistry-Reagents.dm : 940
+		code\modules\Chemistry\Chemistry-Reagents.dm : 951
+		code\modules\Chemistry\Chemistry-Reagents.dm : 962
+		code\modules\Chemistry\Chemistry-Reagents.dm : 983
+		code\modules\Chemistry\Chemistry-Reagents.dm : 997
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1011
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1022
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1033
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1046
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1061
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1072
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1087
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1101
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1115
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1131
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1137
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1168
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1175
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1181
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1187
+GAS
+	Value: 3
+	Comment: 
+	Defined in: code\modules\Chemistry\Chemistry-Reagents.dm : 2
+	Number of references: 11
+		code\modules\Chemistry\Chemistry-Reagents.dm : 470
+		code\modules\Chemistry\Chemistry-Reagents.dm : 476
+		code\modules\Chemistry\Chemistry-Reagents.dm : 482
+		code\modules\Chemistry\Chemistry-Reagents.dm : 524
+		code\modules\Chemistry\Chemistry-Reagents.dm : 535
+		code\modules\Chemistry\Chemistry-Reagents.dm : 1162
+		code\modules\mob\living\carbon\life.dm : 503
+		code\modules\mob\living\carbon\alien\life.dm : 76
+		code\modules\mob\living\silicon\robot\life.dm : 82
+		code\WorkInProgress\NewMobs and etc\humanlife.dm : 706
+		code\WorkInProgress\recycling\disposal.dm : 327
+STAT_ALIVE
+	Value: 0
+	Comment: 
+	Defined in: code\modules\mob\mob.dm : 55
+	Number of references: 3
+		code\modules\mob\living\carbon\human\ai.dm : 55
+		code\modules\pain\pain.dm : 13
+		code\modules\pain\pain.dm : 38
+STAT_ASLEEP
+	Value: 1
+	Comment: 
+	Defined in: code\modules\mob\mob.dm : 56
+	Number of references: 0
+STAT_DEAD
+	Value: 2
+	Comment: 
+	Defined in: code\modules\mob\mob.dm : 57
+	Number of references: 8
+		code\modules\mob\living\carbon\give.dm : 3
+		code\modules\mob\living\carbon\human\ai.dm : 45
+		code\modules\mob\living\carbon\human\ai.dm : 118
+		code\modules\mob\living\carbon\human\ai.dm : 143
+		code\modules\mob\living\carbon\human\ai.dm : 157
+		code\modules\mob\living\carbon\human\ai.dm : 163
+		code\modules\mob\living\carbon\human\ai.dm : 185
+		code\WorkInProgress\NewMobs and etc\Damagesystem.dm : 395
+CAN_CONTAMINATE
+	Value: 1.5
+	Comment: 
+	Defined in: code\modules\mob\living\carbon\life.dm : 159
+	Number of references: 1
+		code\modules\mob\living\carbon\life.dm : 190
+cycle_pause
+	Value: 15
+	Comment: 
+	Defined in: code\modules\mob\living\carbon\human\ai.dm : 13
+	Number of references: 1
+		code\modules\mob\living\carbon\human\ai.dm : 46
+viewrange
+	Value: 9
+	Comment: 
+	Defined in: code\modules\mob\living\carbon\human\ai.dm : 14
+	Number of references: 5
+		code\modules\mob\living\carbon\human\ai.dm : 134
+		code\modules\mob\living\carbon\human\ai.dm : 140
+		code\modules\mob\living\carbon\human\ai.dm : 143
+		code\modules\mob\living\carbon\human\ai.dm : 157
+		code\modules\mob\living\carbon\human\ai.dm : 169
+ZOMBIE_SLEEP
+	Value: 0
+	Comment: 
+	Defined in: code\modules\mob\living\carbon\human\ai.dm : 16
+	Number of references: 0
+ZOMBIE_ATTACK
+	Value: 1
+	Comment: 
+	Defined in: code\modules\mob\living\carbon\human\ai.dm : 17
+	Number of references: 0
+ZOMBIE_IDLE
+	Value: 2
+	Comment: 
+	Defined in: code\modules\mob\living\carbon\human\ai.dm : 18
+	Number of references: 0
+SAVEFILE_VERSION_MIN
+	Value: 2
+	Comment: 
+	Defined in: code\modules\mob\living\carbon\human\savefile.dm : 0
+	Number of references: 0
+SAVEFILE_VERSION_MAX
+	Value: 2
+	Comment: 
+	Defined in: code\modules\mob\living\carbon\human\savefile.dm : 1
+	Number of references: 0
+APC_WIRE_IDSCAN
+	Value: 1
+	Comment: 
+	Defined in: code\modules\power\apc.dm : 0
+	Number of references: 1
+		code\modules\power\apc.dm : 712
+APC_WIRE_MAIN_POWER1
+	Value: 2
+	Comment: 
+	Defined in: code\modules\power\apc.dm : 1
+	Number of references: 5
+		code\modules\power\apc.dm : 670
+		code\modules\power\apc.dm : 690
+		code\modules\power\apc.dm : 691
+		code\modules\power\apc.dm : 696
+		code\modules\power\apc.dm : 717
+APC_WIRE_MAIN_POWER2
+	Value: 3
+	Comment: 
+	Defined in: code\modules\power\apc.dm : 2
+	Number of references: 5
+		code\modules\power\apc.dm : 674
+		code\modules\power\apc.dm : 691
+		code\modules\power\apc.dm : 695
+		code\modules\power\apc.dm : 696
+		code\modules\power\apc.dm : 724
+APC_WIRE_AI_CONTROL
+	Value: 4
+	Comment: 
+	Defined in: code\modules\power\apc.dm : 3
+	Number of references: 3
+		code\modules\power\apc.dm : 678
+		code\modules\power\apc.dm : 700
+		code\modules\power\apc.dm : 731
+GENRATE
+	Value: 800
+	Comment: 
+	Defined in: code\modules\power\generator.dm : 30
+	Number of references: 2
+		code\modules\power\solar.dm : 58
+		code\modules\power\solar.dm : 70
+LIGHT_EMPTY
+	Value: 1
+	Comment: 
+	Defined in: code\modules\power\lighting.dm : 7
+	Number of references: 9
+		code\modules\power\lighting.dm : 127
+		code\modules\power\lighting.dm : 173
+		code\modules\power\lighting.dm : 189
+		code\modules\power\lighting.dm : 231
+		code\modules\power\lighting.dm : 255
+		code\modules\power\lighting.dm : 275
+		code\modules\power\lighting.dm : 300
+		code\modules\power\lighting.dm : 350
+		code\modules\power\lighting.dm : 357
+LIGHT_BROKEN
+	Value: 2
+	Comment: 
+	Defined in: code\modules\power\lighting.dm : 8
+	Number of references: 9
+		code\modules\power\lighting.dm : 75
+		code\modules\power\lighting.dm : 111
+		code\modules\power\lighting.dm : 133
+		code\modules\power\lighting.dm : 177
+		code\modules\power\lighting.dm : 189
+		code\modules\power\lighting.dm : 255
+		code\modules\power\lighting.dm : 366
+		code\modules\power\lighting.dm : 527
+		code\modules\power\lighting.dm : 566
+LIGHT_BURNED
+	Value: 3
+	Comment: 
+	Defined in: code\modules\power\lighting.dm : 9
+	Number of references: 6
+		code\modules\power\lighting.dm : 130
+		code\modules\power\lighting.dm : 153
+		code\modules\power\lighting.dm : 175
+		code\modules\power\lighting.dm : 360
+		code\modules\power\lighting.dm : 524
+		code\modules\power\lighting.dm : 564
+LIGHTING_POWER_FACTOR
+	Value: 10
+	Comment: 
+	Defined in: code\modules\power\lighting.dm : 395
+	Number of references: 1
+		code\modules\power\lighting.dm : 400
+SMESRATE
+	Value: 0.05
+	Comment: 
+	Defined in: code\modules\power\smes.dm : 46
+	Number of references: 6
+		code\modules\power\smes.dm : 66
+		code\modules\power\smes.dm : 68
+		code\modules\power\smes.dm : 90
+		code\modules\power\smes.dm : 92
+		code\modules\power\smes.dm : 125
+		code\modules\power\smes.dm : 131
+SOLARGENRATE
+	Value: 1500
+	Comment: 
+	Defined in: code\modules\power\solar.dm : 58
+	Number of references: 1
+		code\modules\power\solar.dm : 70
+COMPFRICTION
+	Value: 5e5
+	Comment: 
+	Defined in: code\modules\power\turbine.dm : 54
+	Number of references: 1
+		code\modules\power\turbine.dm : 73
+COMPSTARTERLOAD
+	Value: 2800
+	Comment: 
+	Defined in: code\modules\power\turbine.dm : 55
+	Number of references: 0
+TURBPRES
+	Value: 9000000
+	Comment: 
+	Defined in: code\modules\power\turbine.dm : 108
+	Number of references: 0
+TURBGENQ
+	Value: 20000
+	Comment: 
+	Defined in: code\modules\power\turbine.dm : 109
+	Number of references: 1
+		code\modules\power\turbine.dm : 121
+TURBGENG
+	Value: 0.8
+	Comment: 
+	Defined in: code\modules\power\turbine.dm : 110
+	Number of references: 1
+		code\modules\power\turbine.dm : 121
+MAX_SCRAP
+	Value: 15000
+	Comment: 
+	Defined in: code\WorkInProgress\recycling\scrap.dm : 25
+	Number of references: 3
+		code\WorkInProgress\recycling\scrap.dm : 142
+		code\WorkInProgress\recycling\scrap.dm : 183
+		code\WorkInProgress\recycling\scrap.dm : 227
+NITROGEN_RETARDATION_FACTOR
+	Value: 4
+	Comment: 
+	Defined in: code\WorkInProgress\ZeroPoint\SuperMatter.dm : 0
+	Number of references: 1
+		code\WorkInProgress\ZeroPoint\SuperMatter.dm : 83
+THERMAL_RELEASE_MODIFIER
+	Value: 50
+	Comment: 
+	Defined in: code\WorkInProgress\ZeroPoint\SuperMatter.dm : 1
+	Number of references: 1
+		code\WorkInProgress\ZeroPoint\SuperMatter.dm : 98
+PLASMA_RELEASE_MODIFIER
+	Value: 750
+	Comment: 
+	Defined in: code\WorkInProgress\ZeroPoint\SuperMatter.dm : 2
+	Number of references: 1
+		code\WorkInProgress\ZeroPoint\SuperMatter.dm : 103
+OXYGEN_RELEASE_MODIFIER
+	Value: 1500
+	Comment: 
+	Defined in: code\WorkInProgress\ZeroPoint\SuperMatter.dm : 3
+	Number of references: 1
+		code\WorkInProgress\ZeroPoint\SuperMatter.dm : 105
+REACTION_POWER_MODIFIER
+	Value: 1.1
+	Comment: 
+	Defined in: code\WorkInProgress\ZeroPoint\SuperMatter.dm : 4
+	Number of references: 1
+		code\WorkInProgress\ZeroPoint\SuperMatter.dm : 89
+LIST_MODE
+	Value: 1
+	Comment: 
+	Defined in: code\XML\Child.dm : 0
+	Number of references: 6
+		code\XML\Child.dm : 77
+		code\XML\Handler.dm : 0
+		code\XML\Handler.dm : 12
+		code\XML\Handler.dm : 57
+		code\XML\Handler.dm : 61
+		code\XML\Handler.dm : 62
+PARAMS_MODE
+	Value: 2
+	Comment: 
+	Defined in: code\XML\Child.dm : 1
+	Number of references: 5
+		code\XML\Child.dm : 80
+		code\XML\Handler.dm : 1
+		code\XML\Handler.dm : 58
+		code\XML\Handler.dm : 67
+		code\XML\Handler.dm : 68
+POST
+	Value: 1
+	Comment: 
+	Defined in: code\XML\Child.dm : 3
+	Number of references: 1
+		code\XML\Writer.dm : 43
+PRE
+	Value: 2
+	Comment: 
+	Defined in: code\XML\Child.dm : 4
+	Number of references: 4
+		code\XML\Child.dm : 41
+		code\XML\Writer.dm : 23
+		code\ZAS\Fire.dm : 125
+		code\ZAS\Fire.dm : 126
+SIDE
+	Value: 3
+	Comment: 
+	Defined in: code\XML\Child.dm : 5
+	Number of references: 1
+		code\XML\Writer.dm : 35
+LIST_MODE
+	Value: 1
+	Comment: 
+	Defined in: code\XML\Handler.dm : 0
+	Number of references: 4
+		code\XML\Handler.dm : 12
+		code\XML\Handler.dm : 57
+		code\XML\Handler.dm : 61
+		code\XML\Handler.dm : 62
+PARAMS_MODE
+	Value: 2
+	Comment: 
+	Defined in: code\XML\Handler.dm : 1
+	Number of references: 3
+		code\XML\Handler.dm : 58
+		code\XML\Handler.dm : 67
+		code\XML\Handler.dm : 68
+SILENT_FAIL
+	Value: 1
+	Comment: 
+	Defined in: code\XML\Handler.dm : 3
+	Number of references: 1
+		code\XML\Handler.dm : 13
+LOUD_FAIL
+	Value: 2
+	Comment: 
+	Defined in: code\XML\Handler.dm : 4
+	Number of references: 1
+		code\XML\Handler.dm : 25
+ENDING_CLOSE
+	Value: 1
+	Comment: 
+	Defined in: code\XML\Reader.dm : 0
+	Number of references: 2
+		code\XML\Reader.dm : 71
+		code\XML\Reader.dm : 195
+BEGINNING_CLOSE
+	Value: 2
+	Comment: 
+	Defined in: code\XML\Reader.dm : 1
+	Number of references: 2
+		code\XML\Reader.dm : 71
+		code\XML\Reader.dm : 205
+ERROR ERROR
+	Value: Something went wrong here
+	Comment: #define OXYGEN
+	Defined in: code\ZAS\Fire.dm : 2
+	Number of references: 0
+QUANTIZE(variable)
+	Value: (round(variable,0.0001))
+	Comment: 
+	Defined in: code\ZAS\Processing.dm : 0
+	Number of references: 0
+------------------------------------------------
+SUCCESS
